@@ -42,10 +42,18 @@ html[lang="hi"] { --font-sans: "Noto Sans Devanagari", "Lexend", system-ui, sans
 html[lang="th"] { --font-sans: "Noto Sans Thai", "Lexend", system-ui, sans-serif; }
 html[lang="ko"] { --font-sans: "Noto Sans KR", "Lexend", system-ui, sans-serif; }
 html[lang="zh-Hant"] { --font-sans: "Noto Sans TC", "Lexend", system-ui, sans-serif; }
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) .serif,
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) h1 em,
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) h2 em,
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) h3 em {
+html[lang="zh-Hans"] { --font-sans: "Noto Sans SC", "Lexend", system-ui, sans-serif; }
+html[lang="ja"] { --font-sans: "Noto Sans JP", "Lexend", system-ui, sans-serif; }
+html[lang="bn"] { --font-sans: "Noto Sans Bengali", "Lexend", system-ui, sans-serif; }
+html[lang="ru"] { --font-sans: "Lexend", "Noto Sans", system-ui, sans-serif; }
+html[lang="ur"] { --font-sans: "Noto Nastaliq Urdu", "Noto Sans Arabic", system-ui, sans-serif; }
+html[lang="ur"] body { line-height: 2.1; }
+html[lang="ur"] h1, html[lang="ur"] h2, html[lang="ur"] h3 { line-height: 1.7; }
+html[lang="ur"] :is(p, span, a, button, summary, li, .answer, .stat span, .chat-msg) { line-height: 2; }
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) .serif,
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) h1 em,
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) h2 em,
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) h3 em {
   font-family: var(--font-sans);
   font-style: normal;
   font-weight: 500;
@@ -157,6 +165,7 @@ html[dir="rtl"] .arrow svg, html[dir="rtl"] .circle-link svg { transform: scaleX
 .lang-btn:hover { border-color: var(--ink); }
 .lang-btn svg { width: 18px; height: 18px; }
 .lang-menu {
+  max-height: min(70vh, 560px); overflow-y: auto; overscroll-behavior: contain;
   position: absolute; inset-inline-end: 0; top: calc(100% + 8px); min-width: 200px; padding: 8px;
   background: #fff; border-radius: 18px; box-shadow: 0 16px 40px rgba(30,27,51,.16); border: 1px solid var(--line);
   list-style: none; margin: 0; display: none; z-index: 60;
@@ -344,7 +353,7 @@ section { position: relative; }
 .quote-photo .badge-rotate .core { inset: 20px; background: var(--sky); }
 blockquote { margin: 0; }
 blockquote p { font-family: var(--font-serif); font-style: italic; font-size: clamp(30px, 3.8vw, 50px); line-height: 1.12; letter-spacing: -0.01em; }
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) blockquote p { font-family: var(--font-sans); font-style: normal; font-size: clamp(24px, 3vw, 36px); line-height: 1.35; }
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) blockquote p { font-family: var(--font-sans); font-style: normal; font-size: clamp(24px, 3vw, 36px); line-height: 1.35; }
 blockquote footer { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 15px; }
 blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .bubble-card {
@@ -378,7 +387,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .level-3 { background: var(--coral-pale); }
 .level-4 { background: var(--cream); border: 1.5px dashed var(--line); }
 
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: clamp(36px, 5vw, 56px); }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: clamp(36px, 5vw, 56px); }
 .stats-title { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; color: var(--ink-soft); }
 .stat { background: var(--cream); border-radius: 24px; padding: 22px; }
 .stat b { display: block; font-size: clamp(28px, 3vw, 38px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
@@ -386,6 +395,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 @media (max-width: 860px) {
   .curr-grid { grid-template-columns: 1fr; }
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats .stat:last-child { grid-column: 1 / -1; }
   .curriculum { border-radius: 32px; }
 }
 @media (max-width: 420px) {
@@ -525,7 +535,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .final .final-img { position: relative; z-index: 1; }
 .final .final-img img { border-radius: 40% 60% 50% 50% / 50% 46% 54% 50%; background: #fff; }
 .final > div { position: relative; z-index: 1; }
-html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"]) .final h2 em { color: var(--sun); }
+html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [lang="zh-Hans"], [lang="ja"], [lang="bn"], [lang="ru"], [lang="ur"], [lang="vi"]) .final h2 em { color: var(--sun); }
 @media (max-width: 860px) {
   .final { grid-template-columns: 1fr; border-radius: 32px; }
   .final .final-img { max-width: 420px; }

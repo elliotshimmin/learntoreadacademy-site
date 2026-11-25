@@ -13,10 +13,21 @@
     { code: "en", name: "English", short: "EN" },
     { code: "es", name: "Español", short: "ES" },
     { code: "pt", name: "Português", short: "PT" },
+    { code: "fr", name: "Français", short: "FR" },
+    { code: "de", name: "Deutsch", short: "DE" },
+    { code: "it", name: "Italiano", short: "IT" },
+    { code: "tr", name: "Türkçe", short: "TR" },
+    { code: "id", name: "Bahasa Indonesia", short: "ID" },
+    { code: "vi", name: "Tiếng Việt", short: "VI" },
+    { code: "ru", name: "Русский", short: "RU", font: "Noto+Sans:wght@300;400;500;600" },
     { code: "ar", name: "العربية", short: "AR", dir: "rtl", font: "Noto+Sans+Arabic:wght@300;400;500;600" },
+    { code: "ur", name: "اردو", short: "UR", dir: "rtl", font: "Noto+Nastaliq+Urdu:wght@400;500;600" },
     { code: "hi", name: "हिन्दी", short: "HI", font: "Noto+Sans+Devanagari:wght@300;400;500;600" },
+    { code: "bn", name: "বাংলা", short: "BN", font: "Noto+Sans+Bengali:wght@300;400;500;600" },
     { code: "th", name: "ไทย", short: "TH", font: "Noto+Sans+Thai:wght@300;400;500;600" },
-    { code: "zh-Hant", name: "繁體中文", short: "中文", font: "Noto+Sans+TC:wght@300;400;500;600" },
+    { code: "zh-Hans", name: "简体中文", short: "简", font: "Noto+Sans+SC:wght@300;400;500;600" },
+    { code: "zh-Hant", name: "繁體中文", short: "繁", font: "Noto+Sans+TC:wght@300;400;500;600" },
+    { code: "ja", name: "日本語", short: "JA", font: "Noto+Sans+JP:wght@300;400;500;600" },
     { code: "ko", name: "한국어", short: "KO", font: "Noto+Sans+KR:wght@300;400;500;600" }
   ];
   var STORE_KEY = "ltr-lang";
@@ -32,7 +43,7 @@
   function match(tag) {
     if (!tag) return null;
     tag = String(tag).toLowerCase();
-    if (tag.indexOf("zh") === 0) return "zh-Hant";
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-Hant" : "zh-Hans";
     var base = tag.split("-")[0];
     return find(base) ? base : null;
   }
@@ -46,6 +57,7 @@
   function choose() {
     var q = null;
     try { q = new URLSearchParams(location.search).get("lang"); } catch (e) {}
+    if (q === "zh") q = "zh-Hans";
     if (q && (find(q) || match(q))) return find(q) ? q : match(q);
     var s = stored();
     if (s && find(s)) return s;

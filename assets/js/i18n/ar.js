@@ -10,7 +10,7 @@ LTR_I18N.register("ar", {
   "nav.loginLong": "مشترك بالفعل؟ سجّل الدخول",
   "nav.trial": "جرّب مجانًا",
 
-  "hero.title": "<span class=\"line\">امنح طفلك</span> <span class=\"line\"><em>الطلاقة في القراءة</em></span> <span class=\"line\">والثقة بالنفس</span> <span class=\"line\"><em>في مكان واحد</em></span>",
+  "hero.title": "<span class=\"line\">امنح طفلك</span> <span class=\"line\"><em>الطلاقة في قراءة الإنجليزية</em></span> <span class=\"line\">والثقة بالنفس</span> <span class=\"line\"><em>في مكان واحد</em></span>",
   "hero.watch": "تعرّف على جيسي وإيلا",
   "hero.guarantee": "إذا لم تنجح أكاديمية 'Learn to Read Academy' مع طفلك، <strong>نعيد لك كامل المبلغ ونضيف 100 دولار</strong> مقابل وقتك.",
   "hero.confident": "نحن واثقون لأن أكاديميتنا تنجح.",
@@ -61,10 +61,12 @@ LTR_I18N.register("ar", {
   "about.s1.small": "من دروس الفيديو",
   "about.s2.big": "$11.99",
   "about.s2.small": "شهريًا (الشهر الأول مجاني). يمكنك الإلغاء في أي وقت",
-  "about.s3.big": "2–3 أشهر",
+  "about.s3.big": "3–4 أشهر",
   "about.s3.small": "من المحتوى (درس قصير واحد كل يوم)",
   "about.s4.big": "58 درسًا",
   "about.s4.small": "في المجموع (17 دقيقة في المتوسط لكل درس)",
+  "about.s5.big": "أكثر من 90 قصة ممتعة",
+  "about.s5.small": "تتدرّج في المستوى مع طفلك",
 
   "risk.title": "جرّبها <em>بلا مخاطرة</em>",
   "risk.text": "أكاديميتنا مجانية لمدة 30 يومًا، ويمكنك الإلغاء في أي وقت.",

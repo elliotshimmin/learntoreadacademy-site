@@ -10,7 +10,7 @@ LTR_I18N.register("es", {
   "nav.loginLong": "¿Ya eres miembro? Entra aquí",
   "nav.trial": "Prueba gratis",
 
-  "hero.title": "<span class=\"line\">Dale a tu hijo</span> <span class=\"line\"><em>fluidez lectora</em></span> <span class=\"line\">y confianza,</span> <span class=\"line\"><em>todo en un solo lugar</em></span>",
+  "hero.title": "<span class=\"line\">Dale a tu hijo</span> <span class=\"line\"><em>fluidez lectora en inglés</em></span> <span class=\"line\">y confianza,</span> <span class=\"line\"><em>todo en un solo lugar</em></span>",
   "hero.watch": "Conoce a Jessie e Isla",
   "hero.guarantee": "Si la 'Learn to Read Academy' no funciona para tu hijo, <strong>te devolvemos todo tu dinero y te damos $100 más</strong> por tu tiempo.",
   "hero.confident": "Estamos seguros porque nuestra Academia funciona.",
@@ -61,10 +61,12 @@ LTR_I18N.register("es", {
   "about.s1.small": "de contenido en video",
   "about.s2.big": "$11.99",
   "about.s2.small": "al mes (primer mes gratis). Cancela cuando quieras",
-  "about.s3.big": "2–3 meses",
+  "about.s3.big": "3–4 meses",
   "about.s3.small": "de contenido (1 lección corta al día)",
   "about.s4.big": "58 lecciones",
   "about.s4.small": "en total (17 min de media por lección)",
+  "about.s5.big": "Más de 90 cuentos",
+  "about.s5.small": "divertidos que avanzan al ritmo de tu hijo",
 
   "risk.title": "Pruébalo <em>sin riesgo</em>",
   "risk.text": "Nuestra Academia es gratis durante 30 días. Cancela cuando quieras.",

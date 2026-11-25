@@ -10,7 +10,7 @@ LTR_I18N.register("th", {
   "nav.loginLong": "เป็นสมาชิกแล้ว? เข้าสู่ระบบ",
   "nav.trial": "ทดลองฟรี",
 
-  "hero.title": "<span class=\"line\">ให้ลูกของคุณ</span> <span class=\"line\"><em>อ่านได้คล่อง</em></span> <span class=\"line\">และมั่นใจ</span> <span class=\"line\"><em>ครบในที่เดียว</em></span>",
+  "hero.title": "<span class=\"line\">ให้ลูกของคุณ</span> <span class=\"line\"><em>อ่านภาษาอังกฤษได้คล่อง</em></span> <span class=\"line\">และมั่นใจ</span> <span class=\"line\"><em>ครบในที่เดียว</em></span>",
   "hero.watch": "รู้จักเจสซี่และไอล่า",
   "hero.guarantee": "ถ้า 'Learn to Read Academy' ไม่ได้ผลกับลูกของคุณ <strong>เราคืนเงินเต็มจำนวน พร้อมให้เพิ่มอีก $100</strong> เป็นค่าเวลาของคุณ",
   "hero.confident": "เรามั่นใจ เพราะอะคาเดมีของเราได้ผลจริง",
@@ -61,10 +61,12 @@ LTR_I18N.register("th", {
   "about.s1.small": "ของเนื้อหาวิดีโอ",
   "about.s2.big": "$11.99",
   "about.s2.small": "ต่อเดือน (เดือนแรกฟรี) ยกเลิกได้ทุกเมื่อ",
-  "about.s3.big": "2–3 เดือน",
+  "about.s3.big": "3–4 เดือน",
   "about.s3.small": "ของเนื้อหา (วันละ 1 บทสั้นๆ)",
   "about.s4.big": "58 บทเรียน",
   "about.s4.small": "ทั้งหมด (เฉลี่ยบทละ 17 นาที)",
+  "about.s5.big": "นิทานสนุกๆ 90+ เรื่อง",
+  "about.s5.small": "ที่ยากขึ้นไปพร้อมกับลูก",
 
   "risk.title": "ลองได้ <em>ไม่มีความเสี่ยง</em>",
   "risk.text": "อะคาเดมีของเราฟรี 30 วัน ยกเลิกได้ทุกเมื่อ",

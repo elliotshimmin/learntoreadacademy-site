@@ -10,7 +10,7 @@ LTR_I18N.register("ko", {
   "nav.loginLong": "이미 회원이신가요? 로그인",
   "nav.trial": "무료 체험",
 
-  "hero.title": "<span class=\"line\">우리 아이에게</span> <span class=\"line\"><em>유창한 읽기</em></span> <span class=\"line\">그리고 자신감을,</span> <span class=\"line\"><em>한 곳에서 모두</em></span>",
+  "hero.title": "<span class=\"line\">우리 아이에게</span> <span class=\"line\"><em>유창한 영어 읽기</em></span> <span class=\"line\">그리고 자신감을,</span> <span class=\"line\"><em>한 곳에서 모두</em></span>",
   "hero.watch": "제시와 아일라를 만나보세요",
   "hero.guarantee": "'Learn to Read Academy'가 아이에게 효과가 없다면, <strong>전액 환불에 더해 $100를 드립니다</strong>. 시간을 내주신 데 대한 보답이에요.",
   "hero.confident": "효과가 있기 때문에 자신 있게 말씀드립니다.",
@@ -61,10 +61,12 @@ LTR_I18N.register("ko", {
   "about.s1.small": "분량의 영상 수업",
   "about.s2.big": "$11.99",
   "about.s2.small": "월 요금 (첫 달 무료). 언제든 해지 가능",
-  "about.s3.big": "2–3개월",
+  "about.s3.big": "3–4개월",
   "about.s3.small": "분량 (하루 짧은 수업 1개)",
   "about.s4.big": "수업 58개",
   "about.s4.small": "총합 (수업당 평균 17분)",
+  "about.s5.big": "재미있는 이야기 90개 이상",
+  "about.s5.small": "아이 수준에 맞춰 함께 레벨업",
 
   "risk.title": "부담 없이 <em>체험해 보세요</em>",
   "risk.text": "30일 동안 무료이고, 언제든 해지할 수 있어요.",
