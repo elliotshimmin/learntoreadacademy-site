@@ -14,6 +14,9 @@ window.LTR_CONFIG = {
   /* Chat bubble links (also used on the page's message tiles) */
   whatsapp: "https://wa.me/447386895248?text=Hello!",
   messenger: "https://m.me/elliot.shimmin",
+  /* Facebook account number for the same person. On phones, the Messenger button opens the
+     chat in the Messenger app with this; without it, the phone may show the App Store instead. */
+  messengerId: "1416662991",
   sms: "sms:+447386895248",
   email: "info@seesaywrite.com"
 };
