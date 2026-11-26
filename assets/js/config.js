@@ -8,8 +8,8 @@ window.LTR_CONFIG = {
        Formspree:         "https://formspree.io/f/abcdwxyz"
      The address is sent the visitor's email in a field called "email"
      (for Mailchimp, set newsletterField to "EMAIL"). */
-  newsletterEndpoint: "",
-  newsletterField: "email",
+  newsletterEndpoint: "https://app.kit.com/forms/10244752/subscriptions", // your Kit form (id 10244752)
+  newsletterField: "email_address",
 
   /* Chat bubble links (also used on the page's message tiles) */
   whatsapp: "https://wa.me/447386895248?text=Hello!",

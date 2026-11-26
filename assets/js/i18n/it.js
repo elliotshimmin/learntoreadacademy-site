@@ -112,7 +112,7 @@ LTR_I18N.register("it", {
   "news.label": "Email (obbligatoria)",
   "news.placeholder": "La tua email",
   "news.submit": "Invia",
-  "news.thanks": "Grazie! 💝",
+  "news.thanks": "Grazie! Controlla la tua email per confermare. 💝",
   "news.invalid": "Inserisci un indirizzo email valido",
   "news.error": "Ops, qualcosa è andato storto. Riprova.",
 

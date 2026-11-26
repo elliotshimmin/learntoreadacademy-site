@@ -112,7 +112,7 @@ LTR_I18N.register("tr", {
   "news.label": "E-posta (zorunlu)",
   "news.placeholder": "E-posta adresiniz",
   "news.submit": "Gönder",
-  "news.thanks": "Teşekkürler! 💝",
+  "news.thanks": "Teşekkürler! Onaylamak için e-postanızı kontrol edin. 💝",
   "news.invalid": "Lütfen geçerli bir e-posta adresi girin",
   "news.error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
 

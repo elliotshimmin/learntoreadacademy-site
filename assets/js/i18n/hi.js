@@ -112,7 +112,7 @@ LTR_I18N.register("hi", {
   "news.label": "ईमेल (ज़रूरी)",
   "news.placeholder": "अपना ईमेल लिखें",
   "news.submit": "भेजें",
-  "news.thanks": "धन्यवाद! 💝",
+  "news.thanks": "धन्यवाद! पुष्टि के लिए अपना ईमेल देखें। 💝",
   "news.invalid": "कृपया सही ईमेल पता लिखें",
   "news.error": "माफ़ करें, कुछ गड़बड़ हुई। फिर से कोशिश करें।",
 

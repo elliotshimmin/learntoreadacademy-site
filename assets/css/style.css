@@ -244,7 +244,7 @@ body { transition: opacity .15s ease; }
 .hero-side .photo-oval { width: 170px; height: 150px; border-radius: 50%; overflow: hidden; background: var(--sky-pale); margin-top: -30px; margin-inline-start: 60px; box-shadow: var(--shadow); }
 .hero-side .photo-oval img { width: 100%; height: 100%; object-fit: cover; }
 
-.hero-intro { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr; gap: 24px 32px; align-items: center; margin-top: 36px; max-width: 900px; }
+.hero-intro { position: relative; z-index: 1; display: grid; grid-template-columns: auto 1fr; gap: 24px 32px; align-items: center; margin-top: 36px; max-width: 900px; }
 .vsl-pill {
   position: relative; width: 210px; height: 120px; border-radius: 50%; background: var(--sky); padding: 10px;
   border: 0; cursor: pointer; display: block;
@@ -256,7 +256,7 @@ body { transition: opacity .15s ease; }
   background: var(--coral); display: grid; place-items: center; box-shadow: 0 6px 16px rgba(232,96,58,.35); transition: transform .15s;
 }
 .vsl-pill:hover .play { transform: scale(1.08); }
-.vsl-pill.no-video { cursor: default; }
+.vsl-pill.no-video, .vsl-pill.photo-only { cursor: default; }
 .vsl-pill.no-video .play { display: none; }
 .vsl-pill .play svg { width: 18px; height: 18px; margin-inline-start: 3px; }
 html[dir="rtl"] .vsl-pill .play svg { transform: scaleX(-1); margin-inline-start: 0; margin-inline-end: 3px; }

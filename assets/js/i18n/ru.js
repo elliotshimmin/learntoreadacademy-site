@@ -112,7 +112,7 @@ LTR_I18N.register("ru", {
   "news.label": "E-mail (обязательно)",
   "news.placeholder": "Ваш e-mail",
   "news.submit": "Отправить",
-  "news.thanks": "Спасибо! 💝",
+  "news.thanks": "Спасибо! Проверьте почту, чтобы подтвердить. 💝",
   "news.invalid": "Введите правильный e-mail",
   "news.error": "Что-то пошло не так. Попробуйте ещё раз.",
 

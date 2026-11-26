@@ -174,9 +174,21 @@
       }
       var fd = new FormData();
       fd.append(C.newsletterField || "email", email);
-      fetch(C.newsletterEndpoint, { method: "POST", body: fd, headers: { Accept: "application/json" }, mode: /mailchimp|list-manage/.test(C.newsletterEndpoint) ? "no-cors" : "cors" })
-        .then(function () { msg.textContent = t("news.thanks", "Thank you! 💝"); form.reset(); })
-        .catch(function () { msg.textContent = t("news.error", "Oops, something went wrong. Please try again."); });
+      var btn = form.querySelector("button[type=submit]");
+      btn.disabled = true;
+      msg.textContent = "…";
+      fetch(C.newsletterEndpoint, { method: "POST", body: fd, headers: { Accept: "application/json" } })
+        .then(function (r) { return r.json().catch(function () { return { status: r.ok ? "success" : "failed" }; }); })
+        .then(function (data) {
+          if (data && data.status === "success") {
+            msg.textContent = t("news.thanks", "Thank you! Please check your email to confirm. 💝");
+            form.reset();
+          } else {
+            msg.textContent = t("news.invalid", "Please enter a valid email address");
+          }
+        })
+        .catch(function () { msg.textContent = t("news.error", "Oops, something went wrong. Please try again."); })
+        .then(function () { btn.disabled = false; });
     });
   }
 

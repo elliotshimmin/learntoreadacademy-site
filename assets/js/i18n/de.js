@@ -112,7 +112,7 @@ LTR_I18N.register("de", {
   "news.label": "E-Mail (Pflichtfeld)",
   "news.placeholder": "Ihre E-Mail-Adresse",
   "news.submit": "Senden",
-  "news.thanks": "Danke! 💝",
+  "news.thanks": "Danke! Bitte prüfen Sie Ihre E-Mails zur Bestätigung. 💝",
   "news.invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
   "news.error": "Hoppla, etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
 

@@ -112,7 +112,7 @@ LTR_I18N.register("ur", {
   "news.label": "ای میل (ضروری)",
   "news.placeholder": "اپنی ای میل لکھیں",
   "news.submit": "بھیجیں",
-  "news.thanks": "شکریہ! 💝",
+  "news.thanks": "شکریہ! تصدیق کے لیے اپنی ای میل دیکھیں۔ 💝",
   "news.invalid": "براہ کرم درست ای میل لکھیں",
   "news.error": "معذرت، کچھ غلط ہو گیا۔ دوبارہ کوشش کریں۔",
 

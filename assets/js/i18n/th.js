@@ -112,7 +112,7 @@ LTR_I18N.register("th", {
   "news.label": "อีเมล (จำเป็น)",
   "news.placeholder": "ใส่อีเมลของคุณ",
   "news.submit": "ส่ง",
-  "news.thanks": "ขอบคุณ! 💝",
+  "news.thanks": "ขอบคุณ! โปรดตรวจอีเมลเพื่อยืนยัน 💝",
   "news.invalid": "กรุณาใส่อีเมลที่ถูกต้อง",
   "news.error": "ขออภัย มีบางอย่างผิดพลาด ลองอีกครั้ง",
 

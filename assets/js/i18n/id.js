@@ -112,7 +112,7 @@ LTR_I18N.register("id", {
   "news.label": "Email (wajib)",
   "news.placeholder": "Alamat email Anda",
   "news.submit": "Kirim",
-  "news.thanks": "Terima kasih! 💝",
+  "news.thanks": "Terima kasih! Cek email Anda untuk konfirmasi. 💝",
   "news.invalid": "Masukkan alamat email yang benar",
   "news.error": "Maaf, ada yang salah. Silakan coba lagi.",
 

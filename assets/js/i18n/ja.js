@@ -112,7 +112,7 @@ LTR_I18N.register("ja", {
   "news.label": "メールアドレス（必須）",
   "news.placeholder": "メールアドレスを入力",
   "news.submit": "送信",
-  "news.thanks": "ありがとうございます！💝",
+  "news.thanks": "ありがとうございます！確認メールをご確認ください。💝",
   "news.invalid": "正しいメールアドレスを入力してください",
   "news.error": "問題が発生しました。もう一度お試しください。",
 

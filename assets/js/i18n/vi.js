@@ -112,7 +112,7 @@ LTR_I18N.register("vi", {
   "news.label": "Email (bắt buộc)",
   "news.placeholder": "Nhập email của bạn",
   "news.submit": "Gửi",
-  "news.thanks": "Cảm ơn bạn! 💝",
+  "news.thanks": "Cảm ơn bạn! Hãy kiểm tra email để xác nhận. 💝",
   "news.invalid": "Vui lòng nhập email hợp lệ",
   "news.error": "Rất tiếc, đã có lỗi. Vui lòng thử lại.",
 

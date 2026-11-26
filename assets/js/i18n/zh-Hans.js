@@ -112,7 +112,7 @@ LTR_I18N.register("zh-Hans", {
   "news.label": "邮箱（必填）",
   "news.placeholder": "输入您的邮箱",
   "news.submit": "提交",
-  "news.thanks": "谢谢！💝",
+  "news.thanks": "谢谢！请查收邮件并确认订阅。💝",
   "news.invalid": "请输入有效的邮箱地址",
   "news.error": "抱歉，出了点问题，请再试一次。",
 
