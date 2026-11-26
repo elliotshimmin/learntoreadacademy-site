@@ -108,11 +108,11 @@ LTR_I18N.register("ko", {
   "talk.copied": "이메일 주소가 복사되었어요:",
   "talk.email": "이메일",
 
-  "news.title": "이메일을 남기고 무료 팁과 자료를 받아보세요 💝",
+  "news.title": "이메일을 남기고 무료 팁과 자료를 받아보세요",
   "news.label": "이메일 (필수)",
   "news.placeholder": "이메일을 입력하세요",
   "news.submit": "보내기",
-  "news.thanks": "감사합니다! 이메일을 확인해 구독을 확정해 주세요. 💝",
+  "news.thanks": "감사합니다! 이메일을 확인해 구독을 확정해 주세요.",
   "news.invalid": "올바른 이메일 주소를 입력해 주세요",
   "news.error": "죄송해요, 문제가 생겼어요. 다시 시도해 주세요.",
 

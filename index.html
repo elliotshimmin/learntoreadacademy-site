@@ -21,7 +21,20 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lexend:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/lexend-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/instrument-serif-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <script>
+    /* Hide the big headline for a moment until its fonts are ready, so it doesn't jump (max 1.2s). */
+    (function () {
+      var d = document.documentElement;
+      if (!document.fonts || !document.fonts.load) return;
+      d.classList.add("fonts-loading");
+      var done = function () { d.classList.remove("fonts-loading"); };
+      Promise.all([document.fonts.load('600 40px "Lexend"'), document.fonts.load('italic 400 40px "Instrument Serif"')]).then(done, done);
+      setTimeout(done, 1200);
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
 
   <script type="application/ld+json">
@@ -109,7 +122,7 @@
 
         <div class="hero-intro">
           <div class="vsl-pill photo-only">
-            <span class="inner"><img src="assets/img/jessie-isla.webp" alt="Jessie and Isla, your child's reading teachers" width="210" height="120"></span>
+            <span class="inner"><img src="assets/img/jessie-isla.webp" alt="Jessie and Isla, your child's reading teachers" width="900" height="531"></span>
           </div>
           <div class="lead">
             <p data-i18n-html="hero.guarantee">If our 'Learn to Read Academy' doesn't work for your child, <strong>we'll send you a full refund plus $100</strong> for your time.</p>
@@ -440,7 +453,7 @@
     <section class="section" id="newsletter" style="padding-top:0" hidden>
       <div class="wrap">
         <div class="newsletter">
-          <h2 data-i18n="news.title">Add your email for free tips and resources 💝</h2>
+          <h2 data-i18n="news.title">Add your email for free tips and resources</h2>
           <form id="newsletterForm" novalidate>
             <label><span class="sr-only" data-i18n="news.label">Email (required)</span><input type="email" name="email" required autocomplete="email" placeholder="Enter your email" data-i18n-placeholder="news.placeholder"></label>
             <button class="btn btn-primary" type="submit" data-i18n="news.submit">Submit</button>

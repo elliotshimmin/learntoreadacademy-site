@@ -108,11 +108,11 @@ LTR_I18N.register("zh-Hans", {
   "talk.copied": "邮箱地址已复制：",
   "talk.email": "邮件",
 
-  "news.title": "留下邮箱，免费获取技巧和教材 💝",
+  "news.title": "留下邮箱，免费获取技巧和教材",
   "news.label": "邮箱（必填）",
   "news.placeholder": "输入您的邮箱",
   "news.submit": "提交",
-  "news.thanks": "谢谢！请查收邮件并确认订阅。💝",
+  "news.thanks": "谢谢！请查收邮件并确认订阅。",
   "news.invalid": "请输入有效的邮箱地址",
   "news.error": "抱歉，出了点问题，请再试一次。",
 

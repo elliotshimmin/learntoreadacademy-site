@@ -181,7 +181,7 @@
         .then(function (r) { return r.json().catch(function () { return { status: r.ok ? "success" : "failed" }; }); })
         .then(function (data) {
           if (data && data.status === "success") {
-            msg.textContent = t("news.thanks", "Thank you! Please check your email to confirm. 💝");
+            msg.textContent = t("news.thanks", "Thank you! Please check your email to confirm.");
             form.reset();
           } else {
             msg.textContent = t("news.invalid", "Please enter a valid email address");

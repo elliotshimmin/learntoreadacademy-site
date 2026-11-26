@@ -108,11 +108,11 @@ LTR_I18N.register("vi", {
   "talk.copied": "Đã sao chép email:",
   "talk.email": "Email",
 
-  "news.title": "Để lại email để nhận mẹo và tài liệu miễn phí 💝",
+  "news.title": "Để lại email để nhận mẹo và tài liệu miễn phí",
   "news.label": "Email (bắt buộc)",
   "news.placeholder": "Nhập email của bạn",
   "news.submit": "Gửi",
-  "news.thanks": "Cảm ơn bạn! Hãy kiểm tra email để xác nhận. 💝",
+  "news.thanks": "Cảm ơn bạn! Hãy kiểm tra email để xác nhận.",
   "news.invalid": "Vui lòng nhập email hợp lệ",
   "news.error": "Rất tiếc, đã có lỗi. Vui lòng thử lại.",
 

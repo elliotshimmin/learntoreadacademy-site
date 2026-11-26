@@ -108,11 +108,11 @@ LTR_I18N.register("de", {
   "talk.copied": "E-Mail-Adresse kopiert:",
   "talk.email": "E-Mail",
 
-  "news.title": "E-Mail eintragen und kostenlose Tipps & Materialien erhalten 💝",
+  "news.title": "E-Mail eintragen und kostenlose Tipps & Materialien erhalten",
   "news.label": "E-Mail (Pflichtfeld)",
   "news.placeholder": "Ihre E-Mail-Adresse",
   "news.submit": "Senden",
-  "news.thanks": "Danke! Bitte prüfen Sie Ihre E-Mails zur Bestätigung. 💝",
+  "news.thanks": "Danke! Bitte prüfen Sie Ihre E-Mails zur Bestätigung.",
   "news.invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
   "news.error": "Hoppla, etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
 

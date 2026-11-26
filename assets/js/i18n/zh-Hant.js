@@ -108,11 +108,11 @@ LTR_I18N.register("zh-Hant", {
   "talk.copied": "電郵地址已複製：",
   "talk.email": "電郵",
 
-  "news.title": "留下電郵，免費獲取貼士和教材 💝",
+  "news.title": "留下電郵，免費獲取貼士和教材",
   "news.label": "電郵（必填）",
   "news.placeholder": "輸入您的電郵",
   "news.submit": "提交",
-  "news.thanks": "謝謝！請查看電郵並確認訂閱。💝",
+  "news.thanks": "謝謝！請查看電郵並確認訂閱。",
   "news.invalid": "請輸入有效的電郵地址",
   "news.error": "抱歉，出了點問題，請再試一次。",
 

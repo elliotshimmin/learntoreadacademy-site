@@ -108,11 +108,11 @@ LTR_I18N.register("pt", {
   "talk.copied": "E-mail copiado:",
   "talk.email": "E-mail",
 
-  "news.title": "Deixe seu e-mail e receba dicas e materiais grátis 💝",
+  "news.title": "Deixe seu e-mail e receba dicas e materiais grátis",
   "news.label": "E-mail (obrigatório)",
   "news.placeholder": "Digite seu e-mail",
   "news.submit": "Enviar",
-  "news.thanks": "Obrigado! Confira seu e-mail para confirmar. 💝",
+  "news.thanks": "Obrigado! Confira seu e-mail para confirmar.",
   "news.invalid": "Digite um e-mail válido",
   "news.error": "Ops, algo deu errado. Tente de novo.",
 

@@ -108,11 +108,11 @@ LTR_I18N.register("tr", {
   "talk.copied": "E-posta adresi kopyalandı:",
   "talk.email": "E-posta",
 
-  "news.title": "Ücretsiz ipuçları ve materyaller için e-postanızı bırakın 💝",
+  "news.title": "Ücretsiz ipuçları ve materyaller için e-postanızı bırakın",
   "news.label": "E-posta (zorunlu)",
   "news.placeholder": "E-posta adresiniz",
   "news.submit": "Gönder",
-  "news.thanks": "Teşekkürler! Onaylamak için e-postanızı kontrol edin. 💝",
+  "news.thanks": "Teşekkürler! Onaylamak için e-postanızı kontrol edin.",
   "news.invalid": "Lütfen geçerli bir e-posta adresi girin",
   "news.error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
 

@@ -108,11 +108,11 @@ LTR_I18N.register("id", {
   "talk.copied": "Alamat email disalin:",
   "talk.email": "Email",
 
-  "news.title": "Masukkan email Anda untuk tips dan materi gratis 💝",
+  "news.title": "Masukkan email Anda untuk tips dan materi gratis",
   "news.label": "Email (wajib)",
   "news.placeholder": "Alamat email Anda",
   "news.submit": "Kirim",
-  "news.thanks": "Terima kasih! Cek email Anda untuk konfirmasi. 💝",
+  "news.thanks": "Terima kasih! Cek email Anda untuk konfirmasi.",
   "news.invalid": "Masukkan alamat email yang benar",
   "news.error": "Maaf, ada yang salah. Silakan coba lagi.",
 

@@ -6,7 +6,20 @@
   <title>Page not found | Learn to Read Academy</title>
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/favicon-64.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/assets/fonts/lexend-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/instrument-serif-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <script>
+    /* Hide the big headline for a moment until its fonts are ready, so it doesn't jump (max 1.2s). */
+    (function () {
+      var d = document.documentElement;
+      if (!document.fonts || !document.fonts.load) return;
+      d.classList.add("fonts-loading");
+      var done = function () { d.classList.remove("fonts-loading"); };
+      Promise.all([document.fonts.load('600 40px "Lexend"'), document.fonts.load('italic 400 40px "Instrument Serif"')]).then(done, done);
+      setTimeout(done, 1200);
+    })();
+  </script>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
