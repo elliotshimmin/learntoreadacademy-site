@@ -129,7 +129,7 @@ LTR_I18N.register("hi", {
   "chat.pick": "हमसे बात करने का तरीका चुनें:",
   "chat.open": "हमें मैसेज करें",
 
-  "contact.title": "हमें आपसे <em>सुनकर खुशी होगी 🙂</em>",
+  "contact.title": "हमें आपसे <em>सुनकर खुशी होगी <span class=emoji>🙂</span></em>",
   "contact.sub": "हम 24 घंटे में जवाब देने का वादा करते हैं। नीचे हमारे सवाल-जवाब देखें 👇",
   "contact.reply": "24 घंटे में जवाब",
   "contact.membersTitle": "पहले से सदस्य हैं?",

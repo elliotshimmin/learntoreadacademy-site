@@ -129,7 +129,7 @@ LTR_I18N.register("ru", {
   "chat.pick": "Выберите, как нам написать:",
   "chat.open": "Написать нам",
 
-  "contact.title": "Будем рады <em>вашему сообщению 🙂</em>",
+  "contact.title": "Будем рады <em>вашему сообщению <span class=emoji>🙂</span></em>",
   "contact.sub": "Обещаем ответить в течение 24 часов. Загляните в частые вопросы ниже 👇",
   "contact.reply": "Ответ в течение 24 ч",
   "contact.membersTitle": "Уже учитесь у нас?",

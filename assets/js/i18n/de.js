@@ -129,7 +129,7 @@ LTR_I18N.register("de", {
   "chat.pick": "Wählen Sie, wie Sie uns schreiben möchten:",
   "chat.open": "Schreiben Sie uns",
 
-  "contact.title": "Wir freuen uns, <em>von Ihnen zu hören 🙂</em>",
+  "contact.title": "Wir freuen uns, <em>von Ihnen zu hören <span class=emoji>🙂</span></em>",
   "contact.sub": "Wir antworten innerhalb von 24 Stunden. Schauen Sie auch unten in die häufigen Fragen 👇",
   "contact.reply": "Antwort in 24 Std.",
   "contact.membersTitle": "Schon Mitglied?",

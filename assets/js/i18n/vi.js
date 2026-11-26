@@ -129,7 +129,7 @@ LTR_I18N.register("vi", {
   "chat.pick": "Chọn cách nhắn tin cho chúng tôi:",
   "chat.open": "Nhắn tin cho chúng tôi",
 
-  "contact.title": "Chúng tôi rất muốn <em>nghe từ bạn 🙂</em>",
+  "contact.title": "Chúng tôi rất muốn <em>nghe từ bạn <span class=emoji>🙂</span></em>",
   "contact.sub": "Chúng tôi hứa trả lời trong vòng 24 giờ. Xem câu hỏi thường gặp bên dưới 👇",
   "contact.reply": "Trả lời trong 24 giờ",
   "contact.membersTitle": "Đã là thành viên?",

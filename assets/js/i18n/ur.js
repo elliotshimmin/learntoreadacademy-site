@@ -129,7 +129,7 @@ LTR_I18N.register("ur", {
   "chat.pick": "ہم سے بات کرنے کا طریقہ چنیں:",
   "chat.open": "ہمیں میسج کریں",
 
-  "contact.title": "ہمیں آپ سے <em>سن کر خوشی ہوگی 🙂</em>",
+  "contact.title": "ہمیں آپ سے <em>سن کر خوشی ہوگی <span class=emoji>🙂</span></em>",
   "contact.sub": "ہم 24 گھنٹے میں جواب دینے کا وعدہ کرتے ہیں۔ نیچے سوالات دیکھیں 👇",
   "contact.reply": "24 گھنٹے میں جواب",
   "contact.membersTitle": "پہلے سے ممبر ہیں؟",

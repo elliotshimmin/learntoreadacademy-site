@@ -129,7 +129,7 @@ LTR_I18N.register("it", {
   "chat.pick": "Scegli come scriverci:",
   "chat.open": "Scrivici",
 
-  "contact.title": "Ci farebbe piacere <em>sentirti 🙂</em>",
+  "contact.title": "Ci farebbe piacere <em>sentirti <span class=emoji>🙂</span></em>",
   "contact.sub": "Promettiamo di rispondere entro 24 ore. Guarda le domande frequenti qui sotto 👇",
   "contact.reply": "Risposta entro 24 ore",
   "contact.membersTitle": "Sei già iscritto?",

@@ -129,7 +129,7 @@ LTR_I18N.register("zh-Hans", {
   "chat.pick": "请选择联系我们的方式：",
   "chat.open": "给我们发消息",
 
-  "contact.title": "很想 <em>听到您的声音 🙂</em>",
+  "contact.title": "很想 <em>听到您的声音 <span class=emoji>🙂</span></em>",
   "contact.sub": "我们承诺在 24 小时内回复。请先看看下面的常见问题 👇",
   "contact.reply": "24 小时内回复",
   "contact.membersTitle": "已经是会员？",

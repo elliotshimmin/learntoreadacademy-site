@@ -129,7 +129,7 @@ LTR_I18N.register("bn", {
   "chat.pick": "আমাদের সাথে কথা বলার উপায় বেছে নিন:",
   "chat.open": "আমাদের মেসেজ করুন",
 
-  "contact.title": "আপনার কথা <em>শুনতে চাই 🙂</em>",
+  "contact.title": "আপনার কথা <em>শুনতে চাই <span class=emoji>🙂</span></em>",
   "contact.sub": "আমরা ২৪ ঘণ্টার মধ্যে উত্তর দেওয়ার কথা দিচ্ছি। নিচের প্রশ্নগুলো দেখুন 👇",
   "contact.reply": "২৪ ঘণ্টায় উত্তর",
   "contact.membersTitle": "আগে থেকেই সদস্য?",

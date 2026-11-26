@@ -129,7 +129,7 @@ LTR_I18N.register("tr", {
   "chat.pick": "Bize nasıl yazmak istediğinizi seçin:",
   "chat.open": "Bize mesaj gönderin",
 
-  "contact.title": "Sizden <em>haber almak isteriz 🙂</em>",
+  "contact.title": "Sizden <em>haber almak isteriz <span class=emoji>🙂</span></em>",
   "contact.sub": "24 saat içinde yanıt vereceğimize söz veriyoruz. Aşağıdaki sık sorulan sorulara göz atın 👇",
   "contact.reply": "24 saat içinde yanıt",
   "contact.membersTitle": "Zaten üye misiniz?",

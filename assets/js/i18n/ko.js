@@ -129,7 +129,7 @@ LTR_I18N.register("ko", {
   "chat.pick": "연락 방법을 선택해 주세요:",
   "chat.open": "메시지 보내기",
 
-  "contact.title": "여러분의 이야기를 <em>듣고 싶어요 🙂</em>",
+  "contact.title": "여러분의 이야기를 <em>듣고 싶어요 <span class=emoji>🙂</span></em>",
   "contact.sub": "24시간 안에 꼭 답장드릴게요. 아래 자주 묻는 질문도 확인해 보세요 👇",
   "contact.reply": "24시간 안에 답장",
   "contact.membersTitle": "이미 회원이신가요?",

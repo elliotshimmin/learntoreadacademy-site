@@ -129,7 +129,7 @@ LTR_I18N.register("pt", {
   "chat.pick": "Escolha como quer falar com a gente:",
   "chat.open": "Mande uma mensagem",
 
-  "contact.title": "Adoraríamos <em>ouvir você 🙂</em>",
+  "contact.title": "Adoraríamos <em>ouvir você <span class=emoji>🙂</span></em>",
   "contact.sub": "Prometemos responder em até 24 horas. Veja as perguntas frequentes abaixo 👇",
   "contact.reply": "Respondemos em até 24 h",
   "contact.membersTitle": "Já é aluno?",

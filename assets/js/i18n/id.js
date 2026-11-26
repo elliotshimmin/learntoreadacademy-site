@@ -129,7 +129,7 @@ LTR_I18N.register("id", {
   "chat.pick": "Pilih cara menghubungi kami:",
   "chat.open": "Kirim pesan ke kami",
 
-  "contact.title": "Kami senang <em>mendengar dari Anda 🙂</em>",
+  "contact.title": "Kami senang <em>mendengar dari Anda <span class=emoji>🙂</span></em>",
   "contact.sub": "Kami berjanji membalas dalam 24 jam. Lihat tanya jawab di bawah 👇",
   "contact.reply": "Balasan dalam 24 jam",
   "contact.membersTitle": "Sudah jadi anggota?",

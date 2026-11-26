@@ -129,7 +129,7 @@ LTR_I18N.register("ar", {
   "chat.pick": "اختر طريقة التواصل معنا:",
   "chat.open": "راسلنا",
 
-  "contact.title": "يسعدنا <em>أن نسمع منك 🙂</em>",
+  "contact.title": "يسعدنا <em>أن نسمع منك <span class=emoji>🙂</span></em>",
   "contact.sub": "نعدك بالرد خلال 24 ساعة. اطّلع على الأسئلة الشائعة في الأسفل 👇",
   "contact.reply": "نرد خلال 24 ساعة",
   "contact.membersTitle": "مشترك بالفعل؟",

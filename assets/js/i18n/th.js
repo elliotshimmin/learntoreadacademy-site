@@ -129,7 +129,7 @@ LTR_I18N.register("th", {
   "chat.pick": "เลือกช่องทางที่จะคุยกับเรา:",
   "chat.open": "ส่งข้อความหาเรา",
 
-  "contact.title": "เรายินดี <em>รับฟังคุณ 🙂</em>",
+  "contact.title": "เรายินดี <em>รับฟังคุณ <span class=emoji>🙂</span></em>",
   "contact.sub": "เราสัญญาว่าจะตอบภายใน 24 ชั่วโมง ดูคำถามที่พบบ่อยด้านล่าง 👇",
   "contact.reply": "ตอบภายใน 24 ชม.",
   "contact.membersTitle": "เป็นสมาชิกแล้ว?",

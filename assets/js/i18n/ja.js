@@ -129,7 +129,7 @@ LTR_I18N.register("ja", {
   "chat.pick": "連絡方法を選んでください：",
   "chat.open": "メッセージを送る",
 
-  "contact.title": "ぜひ <em>お気軽にご連絡ください 🙂</em>",
+  "contact.title": "ぜひ <em>お気軽にご連絡ください <span class=emoji>🙂</span></em>",
   "contact.sub": "24時間以内にお返事します。下のよくある質問もご覧ください 👇",
   "contact.reply": "24時間以内に返信",
   "contact.membersTitle": "会員の方へ",

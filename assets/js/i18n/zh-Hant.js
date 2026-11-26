@@ -129,7 +129,7 @@ LTR_I18N.register("zh-Hant", {
   "chat.pick": "請選擇聯絡我們的方式：",
   "chat.open": "傳訊息給我們",
 
-  "contact.title": "很想 <em>聽到您的聲音 🙂</em>",
+  "contact.title": "很想 <em>聽到您的聲音 <span class=emoji>🙂</span></em>",
   "contact.sub": "我們承諾在 24 小時內回覆。請先看看下面的常見問題 👇",
   "contact.reply": "24 小時內回覆",
   "contact.membersTitle": "已經是會員？",
