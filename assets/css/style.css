@@ -244,7 +244,7 @@ body { transition: opacity .15s ease; }
 .hero-side .photo-oval { width: 170px; height: 150px; border-radius: 50%; overflow: hidden; background: var(--sky-pale); margin-top: -30px; margin-inline-start: 60px; box-shadow: var(--shadow); }
 .hero-side .photo-oval img { width: 100%; height: 100%; object-fit: cover; }
 
-.hero-intro { position: relative; z-index: 1; display: grid; grid-template-columns: auto 1fr; gap: 24px 32px; align-items: center; margin-top: 36px; max-width: 900px; }
+.hero-intro { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr; gap: 24px 32px; align-items: center; margin-top: 36px; max-width: 900px; }
 .vsl-pill {
   position: relative; width: 210px; height: 120px; border-radius: 50%; background: var(--sky); padding: 10px;
   border: 0; cursor: pointer; display: block;
@@ -613,3 +613,13 @@ html:is([lang="ar"], [lang="hi"], [lang="th"], [lang="ko"], [lang="zh-Hant"], [l
 /* ---------- RTL fine-tuning ---------- */
 html[dir="rtl"] .hero h1, html[dir="rtl"] h2 { letter-spacing: 0; }
 html[dir="rtl"] .cta-block { align-items: flex-start; }
+
+/* Email tile: show the address; toast when it's copied */
+.tile-addr { font-size: 12.5px; font-weight: 400; color: var(--ink-soft); word-break: break-all; }
+.copy-toast {
+  position: fixed; left: 50%; bottom: 96px; transform: translate(-50%, 20px); z-index: 120;
+  background: var(--ink); color: #fff; padding: 12px 20px; border-radius: 999px; font-size: 15px;
+  box-shadow: 0 10px 30px rgba(30,27,51,.25); opacity: 0; pointer-events: none; transition: all .2s ease;
+  max-width: calc(100vw - 32px); text-align: center;
+}
+.copy-toast.show { opacity: 1; transform: translate(-50%, 0); }

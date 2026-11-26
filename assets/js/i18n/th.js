@@ -11,7 +11,6 @@ LTR_I18N.register("th", {
   "nav.trial": "ทดลองฟรี",
 
   "hero.title": "<span class=\"line\">ให้ลูกของคุณ</span> <span class=\"line\"><em>อ่านภาษาอังกฤษได้คล่อง</em></span> <span class=\"line\">และมั่นใจ</span> <span class=\"line\"><em>ครบในที่เดียว</em></span>",
-  "hero.watch": "รู้จักเจสซี่และไอล่า",
   "hero.guarantee": "ถ้า 'Learn to Read Academy' ไม่ได้ผลกับลูกของคุณ <strong>เราคืนเงินเต็มจำนวน พร้อมให้เพิ่มอีก $100</strong> เป็นค่าเวลาของคุณ",
   "hero.confident": "เรามั่นใจ เพราะอะคาเดมีของเราได้ผลจริง",
   "hero.trust": "พ่อแม่ทั่วโลกชื่นชอบ",
@@ -63,7 +62,7 @@ LTR_I18N.register("th", {
   "about.s2.small": "ต่อเดือน (เดือนแรกฟรี) ยกเลิกได้ทุกเมื่อ",
   "about.s3.big": "3–4 เดือน",
   "about.s3.small": "ของเนื้อหา (วันละ 1 บทสั้นๆ)",
-  "about.s4.big": "58 บทเรียน",
+  "about.s4.big": "59 บทเรียน",
   "about.s4.small": "ทั้งหมด (เฉลี่ยบทละ 17 นาที)",
   "about.s5.big": "นิทานสนุกๆ 90+ เรื่อง",
   "about.s5.small": "ที่ยากขึ้นไปพร้อมกับลูก",
@@ -106,6 +105,7 @@ LTR_I18N.register("th", {
   "talk.title": "มี <em>คำถามเพิ่มเติม?</em>",
   "talk.sub": "ถามมาได้เลย อีเมลที่ <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> หรือส่งข้อความ",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "คัดลอกอีเมลแล้ว:",
   "talk.email": "อีเมล",
 
   "news.title": "ใส่อีเมลเพื่อรับเคล็ดลับและสื่อฟรี 💝",

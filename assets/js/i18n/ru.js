@@ -11,7 +11,6 @@ LTR_I18N.register("ru", {
   "nav.trial": "Бесплатно",
 
   "hero.title": "<span class=\"line\">Подарите ребёнку</span> <span class=\"line\"><em>беглое чтение на английском</em></span> <span class=\"line\">и уверенность,</span> <span class=\"line\"><em>всё в одном месте</em></span>",
-  "hero.watch": "Знакомьтесь: Джесси и Айла",
   "hero.guarantee": "Если 'Learn to Read Academy' не поможет вашему ребёнку, <strong>мы вернём все деньги и добавим 100 $</strong> за ваше время.",
   "hero.confident": "Мы уверены, потому что наша Академия работает.",
   "hero.trust": "Её любят родители по всему миру",
@@ -63,7 +62,7 @@ LTR_I18N.register("ru", {
   "about.s2.small": "в месяц (1-й месяц бесплатно). Отмена в любой момент",
   "about.s3.big": "3–4 месяца",
   "about.s3.small": "занятий (1 короткий урок в день)",
-  "about.s4.big": "58 уроков",
+  "about.s4.big": "59 уроков",
   "about.s4.small": "всего (в среднем 17 мин на урок)",
   "about.s5.big": "90+ весёлых историй",
   "about.s5.small": "которые растут вместе с ребёнком",
@@ -106,6 +105,7 @@ LTR_I18N.register("ru", {
   "talk.title": "Остались <em>вопросы?</em>",
   "talk.sub": "Спрашивайте. Пишите на <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> или отправьте сообщение",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "Адрес почты скопирован:",
   "talk.email": "Почта",
 
   "news.title": "Оставьте e-mail и получайте бесплатные советы и материалы 💝",

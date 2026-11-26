@@ -11,7 +11,6 @@ LTR_I18N.register("ja", {
   "nav.trial": "無料体験",
 
   "hero.title": "<span class=\"line\">お子さまに</span> <span class=\"line\"><em>英語をすらすら読む力</em></span> <span class=\"line\">と自信を、</span> <span class=\"line\"><em>ひとつの場所で</em></span>",
-  "hero.watch": "ジェシーとアイラに会おう",
   "hero.guarantee": "「Learn to Read Academy」がお子さまに合わなかった場合、<strong>全額返金に加えて100ドルをお支払いします</strong>。お時間をいただいたお礼です。",
   "hero.confident": "効果があるからこそ、自信を持ってお約束します。",
   "hero.trust": "世界中の保護者に愛されています",
@@ -63,7 +62,7 @@ LTR_I18N.register("ja", {
   "about.s2.small": "月額（最初の1か月は無料）。いつでも解約可能",
   "about.s3.big": "3〜4か月",
   "about.s3.small": "分の内容（1日1本の短いレッスン）",
-  "about.s4.big": "58レッスン",
+  "about.s4.big": "59レッスン",
   "about.s4.small": "合計（1本あたり平均17分）",
   "about.s5.big": "90以上の楽しいおはなし",
   "about.s5.small": "お子さまと一緒にレベルアップ",
@@ -106,6 +105,7 @@ LTR_I18N.register("ja", {
   "talk.title": "ほかにも <em>質問がありますか？</em>",
   "talk.sub": "お気軽にどうぞ。<a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> へメール、またはメッセージを送ってください",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "メールアドレスをコピーしました：",
   "talk.email": "メール",
 
   "news.title": "メールアドレスを登録して、無料のヒントと教材を受け取ろう 💝",

@@ -85,33 +85,40 @@
     }, true);
   });
 
-  /* ---------- Video (Tolstoy) ---------- */
-  /* Tolstoy shows Jessie's video as a floating bubble. Clicking our play button
-     clicks that bubble (never its little ✕ dismiss button), which opens the video. */
-  function openVideo() {
-    var el = document.querySelector("tolstoy-widget, [id^='tolstoy-widget']");
-    if (el) {
-      var root = el.shadowRoot || el;
-      var bubble = root.querySelector(".migration-bubble, [class*='bubble']:not([class*='dismiss']):not([class*='anchor']):not([class*='root'])");
-      if (bubble) { bubble.click(); return true; }
-    }
-    var w = window.tolstoyWidget;
-    try { if (w && typeof w.show === "function") w.show(); } catch (e) {}
-    try { if (w && typeof w.start === "function") { w.start(); return true; } } catch (e) {}
-    return false;
+  /* ---------- Email tiles ----------
+     Some computers have no email app set up, so a mailto link does nothing.
+     We copy the address too and say so, so the visitor can paste it into Gmail etc. */
+  var toast;
+  function showToast(text) {
+    if (!toast) { toast = document.createElement("div"); toast.className = "copy-toast"; toast.setAttribute("role", "status"); document.body.appendChild(toast); }
+    toast.textContent = text;
+    toast.classList.add("show");
+    clearTimeout(toast._t);
+    toast._t = setTimeout(function () { toast.classList.remove("show"); }, 4000);
   }
-  var vslButtons = document.querySelectorAll("[data-vsl]");
-  vslButtons.forEach(function (b) {
-    b.addEventListener("click", function () {
-      if (!openVideo()) setTimeout(openVideo, 800); // widget may still be loading
+  document.querySelectorAll("[data-copy-email]").forEach(function (a) {
+    a.addEventListener("click", function () {
+      var addr = a.getAttribute("data-copy-email");
+      var copiedMsg = t("talk.copied", "Email address copied:") + " " + addr;
+      var plainMsg = t("talk.email", "Email") + ": " + addr;
+      function oldCopy() {
+        try {
+          var ta = document.createElement("textarea");
+          ta.value = addr; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+          document.body.appendChild(ta); ta.select();
+          var ok = document.execCommand("copy");
+          document.body.removeChild(ta);
+          return ok;
+        } catch (e) { return false; }
+      }
+      function fallback() { showToast(oldCopy() ? copiedMsg : plainMsg); }
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(addr).then(function () { showToast(copiedMsg); }, fallback);
+        } else { fallback(); }
+      } catch (e) { fallback(); }
     });
   });
-  // If Tolstoy never shows up (e.g. blocked, or the domain isn't enabled in Tolstoy yet),
-  // turn the play button into a plain photo so it doesn't look broken.
-  setTimeout(function () {
-    if (document.querySelector("tolstoy-widget, [id^='tolstoy-widget']")) return;
-    vslButtons.forEach(function (b) { b.classList.add("no-video"); b.setAttribute("tabindex", "-1"); b.setAttribute("aria-hidden", "true"); });
-  }, 8000);
 
   /* ---------- Chat bubble (WhatsApp / Messenger / iMessage) ---------- */
   var icons = {

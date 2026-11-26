@@ -11,7 +11,6 @@ LTR_I18N.register("bn", {
   "nav.trial": "ফ্রি ট্রায়াল",
 
   "hero.title": "<span class=\"line\">আপনার সন্তানকে দিন</span> <span class=\"line\"><em>সাবলীলভাবে ইংরেজি পড়ার দক্ষতা</em></span> <span class=\"line\">আর আত্মবিশ্বাস,</span> <span class=\"line\"><em>সবকিছু এক জায়গায়</em></span>",
-  "hero.watch": "জেসি আর আইলার সাথে পরিচিত হোন",
   "hero.guarantee": "যদি 'Learn to Read Academy' আপনার সন্তানের জন্য কাজ না করে, <strong>আমরা পুরো টাকা ফেরত দেব, সাথে আরও $100</strong>, আপনার সময়ের জন্য।",
   "hero.confident": "আমরা আত্মবিশ্বাসী, কারণ আমাদের অ্যাকাডেমি কাজ করে।",
   "hero.trust": "সারা বিশ্বের বাবা-মায়েদের প্রিয়",
@@ -63,7 +62,7 @@ LTR_I18N.register("bn", {
   "about.s2.small": "প্রতি মাসে (প্রথম মাস ফ্রি)। যেকোনো সময় বাতিল করুন",
   "about.s3.big": "৩–৪ মাস",
   "about.s3.small": "এর কনটেন্ট (দিনে ১টি ছোট পাঠ)",
-  "about.s4.big": "৫৮টি পাঠ",
+  "about.s4.big": "৫৯টি পাঠ",
   "about.s4.small": "মোট (প্রতি পাঠ গড়ে ১৭ মিনিট)",
   "about.s5.big": "৯০+ মজার গল্প",
   "about.s5.small": "যা আপনার সন্তানের সাথে লেভেল আপ করে",
@@ -106,6 +105,7 @@ LTR_I18N.register("bn", {
   "talk.title": "আরও <em>প্রশ্ন আছে?</em>",
   "talk.sub": "নির্দ্বিধায় জিজ্ঞেস করুন। ইমেল করুন <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> অথবা মেসেজ পাঠান",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "ইমেল ঠিকানা কপি হয়েছে:",
   "talk.email": "ইমেল",
 
   "news.title": "ফ্রি টিপস আর উপকরণ পেতে আপনার ইমেল দিন 💝",

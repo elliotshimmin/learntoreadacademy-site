@@ -11,7 +11,6 @@ LTR_I18N.register("es", {
   "nav.trial": "Prueba gratis",
 
   "hero.title": "<span class=\"line\">Dale a tu hijo</span> <span class=\"line\"><em>fluidez lectora en inglés</em></span> <span class=\"line\">y confianza,</span> <span class=\"line\"><em>todo en un solo lugar</em></span>",
-  "hero.watch": "Conoce a Jessie e Isla",
   "hero.guarantee": "Si la 'Learn to Read Academy' no funciona para tu hijo, <strong>te devolvemos todo tu dinero y te damos $100 más</strong> por tu tiempo.",
   "hero.confident": "Estamos seguros porque nuestra Academia funciona.",
   "hero.trust": "Les encanta a padres de todo el mundo",
@@ -63,7 +62,7 @@ LTR_I18N.register("es", {
   "about.s2.small": "al mes (primer mes gratis). Cancela cuando quieras",
   "about.s3.big": "3–4 meses",
   "about.s3.small": "de contenido (1 lección corta al día)",
-  "about.s4.big": "58 lecciones",
+  "about.s4.big": "59 lecciones",
   "about.s4.small": "en total (17 min de media por lección)",
   "about.s5.big": "Más de 90 cuentos",
   "about.s5.small": "divertidos que avanzan al ritmo de tu hijo",
@@ -106,6 +105,7 @@ LTR_I18N.register("es", {
   "talk.title": "¿Tienes más <em>preguntas?</em>",
   "talk.sub": "Nos encantará que nos preguntes. Escribe a <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> o envía un mensaje",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "Correo copiado:",
   "talk.email": "Correo",
 
   "news.title": "Deja tu correo y recibe consejos y materiales gratis 💝",

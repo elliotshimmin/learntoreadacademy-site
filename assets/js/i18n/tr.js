@@ -11,7 +11,6 @@ LTR_I18N.register("tr", {
   "nav.trial": "Ücretsiz dene",
 
   "hero.title": "<span class=\"line\">Çocuğunuza</span> <span class=\"line\"><em>akıcı İngilizce okuma</em></span> <span class=\"line\">ve özgüven kazandırın,</span> <span class=\"line\"><em>hepsi tek bir yerde</em></span>",
-  "hero.watch": "Jessie ve Isla ile tanışın",
   "hero.guarantee": "'Learn to Read Academy' çocuğunuz için işe yaramazsa, <strong>paranızın tamamını iade eder, üstüne 100 $ veririz</strong>. Zamanınız için.",
   "hero.confident": "Kendimize güveniyoruz, çünkü Akademimiz işe yarıyor.",
   "hero.trust": "Dünyanın dört bir yanındaki ebeveynler seviyor",
@@ -63,7 +62,7 @@ LTR_I18N.register("tr", {
   "about.s2.small": "aylık (ilk ay ücretsiz). İstediğiniz zaman iptal edin",
   "about.s3.big": "3–4 ay",
   "about.s3.small": "içerik (günde 1 kısa ders)",
-  "about.s4.big": "58 ders",
+  "about.s4.big": "59 ders",
   "about.s4.small": "toplam (ders başına ortalama 17 dk)",
   "about.s5.big": "90+ eğlenceli hikaye",
   "about.s5.small": "çocuğunuzla birlikte seviye atlayan",
@@ -106,6 +105,7 @@ LTR_I18N.register("tr", {
   "talk.title": "Başka <em>sorunuz var mı?</em>",
   "talk.sub": "Sormaktan çekinmeyin. <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> adresine yazın veya mesaj gönderin",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "E-posta adresi kopyalandı:",
   "talk.email": "E-posta",
 
   "news.title": "Ücretsiz ipuçları ve materyaller için e-postanızı bırakın 💝",

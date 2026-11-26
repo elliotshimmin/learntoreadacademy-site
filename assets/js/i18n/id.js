@@ -11,7 +11,6 @@ LTR_I18N.register("id", {
   "nav.trial": "Coba gratis",
 
   "hero.title": "<span class=\"line\">Berikan anak Anda</span> <span class=\"line\"><em>kelancaran membaca bahasa Inggris</em></span> <span class=\"line\">dan rasa percaya diri,</span> <span class=\"line\"><em>semua di satu tempat</em></span>",
-  "hero.watch": "Kenalan dengan Jessie & Isla",
   "hero.guarantee": "Jika 'Learn to Read Academy' tidak berhasil untuk anak Anda, <strong>kami kembalikan seluruh uang Anda plus $100</strong> untuk waktu Anda.",
   "hero.confident": "Kami yakin, karena Akademi kami berhasil.",
   "hero.trust": "Disukai orang tua di seluruh dunia",
@@ -63,7 +62,7 @@ LTR_I18N.register("id", {
   "about.s2.small": "per bulan (bulan pertama gratis). Batalkan kapan saja",
   "about.s3.big": "3–4 bulan",
   "about.s3.small": "konten (1 pelajaran singkat per hari)",
-  "about.s4.big": "58 pelajaran",
+  "about.s4.big": "59 pelajaran",
   "about.s4.small": "total (rata-rata 17 menit per pelajaran)",
   "about.s5.big": "90+ cerita seru",
   "about.s5.small": "yang naik level bersama anak Anda",
@@ -106,6 +105,7 @@ LTR_I18N.register("id", {
   "talk.title": "Masih ada <em>pertanyaan?</em>",
   "talk.sub": "Silakan bertanya. Kirim email ke <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> atau kirim pesan",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "Alamat email disalin:",
   "talk.email": "Email",
 
   "news.title": "Masukkan email Anda untuk tips dan materi gratis 💝",

@@ -11,7 +11,6 @@ LTR_I18N.register("zh-Hant", {
   "nav.trial": "免費試用",
 
   "hero.title": "<span class=\"line\">讓您的孩子</span> <span class=\"line\"><em>流暢閱讀英文</em></span> <span class=\"line\">充滿自信</span> <span class=\"line\"><em>一站式學習</em></span>",
-  "hero.watch": "認識 Jessie 和 Isla",
   "hero.guarantee": "如果「Learn to Read Academy」對您的孩子沒有效果，<strong>我們會全數退款，再額外送您 $100</strong>，答謝您付出的時間。",
   "hero.confident": "我們有信心，因為我們的課程真的有效。",
   "hero.trust": "深受世界各地家長喜愛",
@@ -63,7 +62,7 @@ LTR_I18N.register("zh-Hant", {
   "about.s2.small": "每月（首月免費），可隨時取消",
   "about.s3.big": "3–4 個月",
   "about.s3.small": "的內容（每天 1 堂短課）",
-  "about.s4.big": "58 堂課",
+  "about.s4.big": "59 堂課",
   "about.s4.small": "（每堂平均 17 分鐘）",
   "about.s5.big": "90+ 個有趣故事",
   "about.s5.small": "隨孩子的程度逐步升級",
@@ -106,6 +105,7 @@ LTR_I18N.register("zh-Hant", {
   "talk.title": "還有 <em>問題？</em>",
   "talk.sub": "歡迎發問。請電郵至 <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> 或傳送訊息",
   "talk.sms": "iMessage / 短訊",
+  "talk.copied": "電郵地址已複製：",
   "talk.email": "電郵",
 
   "news.title": "留下電郵，免費獲取貼士和教材 💝",

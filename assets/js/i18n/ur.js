@@ -11,7 +11,6 @@ LTR_I18N.register("ur", {
   "nav.trial": "مفت آزمائیں",
 
   "hero.title": "<span class=\"line\">اپنے بچے کو دیں</span> <span class=\"line\"><em>انگریزی روانی سے پڑھنا</em></span> <span class=\"line\">اور اعتماد،</span> <span class=\"line\"><em>سب ایک ہی جگہ</em></span>",
-  "hero.watch": "جیسی اور آئلا سے ملیں",
   "hero.guarantee": "اگر 'Learn to Read Academy' آپ کے بچے کے لیے کام نہ کرے، تو <strong>ہم آپ کی پوری رقم واپس کریں گے اور 100 ڈالر مزید دیں گے</strong>، آپ کے وقت کے لیے۔",
   "hero.confident": "ہمیں یقین ہے، کیونکہ ہماری اکیڈمی کام کرتی ہے۔",
   "hero.trust": "دنیا بھر کے والدین کی پسندیدہ",
@@ -63,7 +62,7 @@ LTR_I18N.register("ur", {
   "about.s2.small": "ماہانہ (پہلا مہینہ مفت)۔ کسی بھی وقت منسوخ کریں",
   "about.s3.big": "3–4 مہینے",
   "about.s3.small": "کا مواد (روزانہ 1 مختصر سبق)",
-  "about.s4.big": "58 اسباق",
+  "about.s4.big": "59 اسباق",
   "about.s4.small": "کل (ہر سبق اوسطاً 17 منٹ)",
   "about.s5.big": "90+ مزے دار کہانیاں",
   "about.s5.small": "جو آپ کے بچے کے ساتھ آگے بڑھتی ہیں",
@@ -106,6 +105,7 @@ LTR_I18N.register("ur", {
   "talk.title": "مزید <em>سوالات ہیں؟</em>",
   "talk.sub": "ضرور پوچھیں۔ ای میل کریں <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> یا میسج بھیجیں",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "ای میل پتہ کاپی ہو گیا:",
   "talk.email": "ای میل",
 
   "news.title": "مفت مشورے اور مواد کے لیے اپنی ای میل درج کریں 💝",

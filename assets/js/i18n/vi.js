@@ -11,7 +11,6 @@ LTR_I18N.register("vi", {
   "nav.trial": "Học thử miễn phí",
 
   "hero.title": "<span class=\"line\">Giúp con bạn</span> <span class=\"line\"><em>đọc tiếng Anh trôi chảy</em></span> <span class=\"line\">và tự tin,</span> <span class=\"line\"><em>tất cả ở cùng một nơi</em></span>",
-  "hero.watch": "Gặp cô Jessie và cô Isla",
   "hero.guarantee": "Nếu 'Learn to Read Academy' không hiệu quả với con bạn, <strong>chúng tôi hoàn lại toàn bộ tiền và tặng thêm $100</strong> cho thời gian của bạn.",
   "hero.confident": "Chúng tôi tự tin vì Học viện của chúng tôi thực sự hiệu quả.",
   "hero.trust": "Được phụ huynh khắp thế giới yêu thích",
@@ -63,7 +62,7 @@ LTR_I18N.register("vi", {
   "about.s2.small": "mỗi tháng (tháng đầu miễn phí). Hủy bất cứ lúc nào",
   "about.s3.big": "3–4 tháng",
   "about.s3.small": "nội dung (mỗi ngày 1 bài ngắn)",
-  "about.s4.big": "58 bài học",
+  "about.s4.big": "59 bài học",
   "about.s4.small": "tổng cộng (trung bình 17 phút mỗi bài)",
   "about.s5.big": "Hơn 90 câu chuyện vui",
   "about.s5.small": "lên cấp cùng con bạn",
@@ -106,6 +105,7 @@ LTR_I18N.register("vi", {
   "talk.title": "Còn <em>câu hỏi khác?</em>",
   "talk.sub": "Cứ hỏi nhé. Email <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> hoặc gửi tin nhắn",
   "talk.sms": "iMessage / SMS",
+  "talk.copied": "Đã sao chép email:",
   "talk.email": "Email",
 
   "news.title": "Để lại email để nhận mẹo và tài liệu miễn phí 💝",

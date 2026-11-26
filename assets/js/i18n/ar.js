@@ -11,7 +11,6 @@ LTR_I18N.register("ar", {
   "nav.trial": "جرّب مجانًا",
 
   "hero.title": "<span class=\"line\">امنح طفلك</span> <span class=\"line\"><em>الطلاقة في قراءة الإنجليزية</em></span> <span class=\"line\">والثقة بالنفس</span> <span class=\"line\"><em>في مكان واحد</em></span>",
-  "hero.watch": "تعرّف على جيسي وإيلا",
   "hero.guarantee": "إذا لم تنجح أكاديمية 'Learn to Read Academy' مع طفلك، <strong>نعيد لك كامل المبلغ ونضيف 100 دولار</strong> مقابل وقتك.",
   "hero.confident": "نحن واثقون لأن أكاديميتنا تنجح.",
   "hero.trust": "يحبها الأهالي في كل أنحاء العالم",
@@ -63,7 +62,7 @@ LTR_I18N.register("ar", {
   "about.s2.small": "شهريًا (الشهر الأول مجاني). يمكنك الإلغاء في أي وقت",
   "about.s3.big": "3–4 أشهر",
   "about.s3.small": "من المحتوى (درس قصير واحد كل يوم)",
-  "about.s4.big": "58 درسًا",
+  "about.s4.big": "59 درسًا",
   "about.s4.small": "في المجموع (17 دقيقة في المتوسط لكل درس)",
   "about.s5.big": "أكثر من 90 قصة ممتعة",
   "about.s5.small": "تتدرّج في المستوى مع طفلك",
@@ -106,6 +105,7 @@ LTR_I18N.register("ar", {
   "talk.title": "هل لديك <em>أسئلة أخرى؟</em>",
   "talk.sub": "يسعدنا سؤالك. راسلنا على <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> أو أرسل رسالة",
   "talk.sms": "iMessage / رسالة نصية",
+  "talk.copied": "تم نسخ البريد الإلكتروني:",
   "talk.email": "البريد الإلكتروني",
 
   "news.title": "أضف بريدك الإلكتروني لتصلك نصائح ومواد مجانية 💝",
