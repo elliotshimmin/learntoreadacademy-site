@@ -85,41 +85,61 @@
     }, true);
   });
 
-  /* ---------- Email tiles ----------
-     Some computers have no email app set up, so a mailto link does nothing.
-     We copy the address too and say so, so the visitor can paste it into Gmail etc. */
+  /* ---------- Email links ----------
+     A mailto: link opens whatever the device has set as its email app. On computers that is
+     often wrong (e.g. it jumps to another browser, or nothing happens), so on computers we
+     don't follow the link: we copy the address and show it, with an optional "Open email app".
+     On phones the link reliably opens Mail/Gmail, so it works normally (and is copied too). */
   var toast;
-  function showToast(text) {
+  function showToast(text, mailto) {
     if (!toast) { toast = document.createElement("div"); toast.className = "copy-toast"; toast.setAttribute("role", "status"); document.body.appendChild(toast); }
     toast.textContent = text;
+    if (mailto) {
+      var open = document.createElement("a");
+      open.href = mailto;
+      open.className = "copy-toast__open";
+      open.setAttribute("data-mail-open", "");
+      open.textContent = t("talk.openApp", "Open email app");
+      toast.appendChild(document.createTextNode(" "));
+      toast.appendChild(open);
+    }
     toast.classList.add("show");
     clearTimeout(toast._t);
-    toast._t = setTimeout(function () { toast.classList.remove("show"); }, 4000);
+    toast._t = setTimeout(function () { toast.classList.remove("show"); }, mailto ? 8000 : 4000);
+  }
+  function isPhone() {
+    try { return window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(max-width: 900px)").matches; } catch (e) { return false; }
+  }
+  function copyText(text, done) {
+    function oldCopy() {
+      try {
+        var ta = document.createElement("textarea");
+        ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.select();
+        var ok = document.execCommand("copy");
+        document.body.removeChild(ta);
+        return ok;
+      } catch (e) { return false; }
+    }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(oldCopy()); });
+        return;
+      }
+    } catch (e) {}
+    done(oldCopy());
   }
   document.addEventListener("click", function (ev) {
-    var a = ev.target.closest && ev.target.closest("[data-copy-email]");
-    if (!a) return;
-    (function () {
-      var addr = a.getAttribute("data-copy-email");
-      var copiedMsg = t("talk.copied", "Email address copied:") + " " + addr;
-      var plainMsg = t("talk.email", "Email") + ": " + addr;
-      function oldCopy() {
-        try {
-          var ta = document.createElement("textarea");
-          ta.value = addr; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
-          document.body.appendChild(ta); ta.select();
-          var ok = document.execCommand("copy");
-          document.body.removeChild(ta);
-          return ok;
-        } catch (e) { return false; }
-      }
-      function fallback() { showToast(oldCopy() ? copiedMsg : plainMsg); }
-      try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(addr).then(function () { showToast(copiedMsg); }, fallback);
-        } else { fallback(); }
-      } catch (e) { fallback(); }
-    })();
+    var a = ev.target.closest && ev.target.closest('a[href^="mailto:"]');
+    if (!a || a.hasAttribute("data-mail-open")) return; // the toast's own "Open email app" link works normally
+    var href = a.getAttribute("href");
+    var addr = a.getAttribute("data-copy-email") || href.replace(/^mailto:/i, "").split("?")[0];
+    var phone = isPhone();
+    if (!phone) ev.preventDefault();
+    copyText(addr, function (ok) {
+      var msg = ok ? t("talk.copied", "Email address copied:") + " " + addr : t("talk.email", "Email") + ": " + addr;
+      showToast(msg, phone ? null : href);
+    });
   });
 
   /* ---------- Chat bubble (WhatsApp / Messenger / iMessage) ---------- */

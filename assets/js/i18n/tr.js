@@ -106,6 +106,7 @@ LTR_I18N.register("tr", {
   "talk.sub": "Sormaktan çekinmeyin. <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> adresine yazın veya mesaj gönderin",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "E-posta adresi kopyalandı:",
+  "talk.openApp": "E-posta uygulamasını aç",
   "talk.email": "E-posta",
 
   "news.title": "Ücretsiz ipuçları ve materyaller için e-postanızı bırakın",

@@ -106,6 +106,7 @@ LTR_I18N.register("ko", {
   "talk.sub": "편하게 물어보세요. <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a>으로 이메일을 보내거나 메시지를 보내주세요",
   "talk.sms": "iMessage / 문자",
   "talk.copied": "이메일 주소가 복사되었어요:",
+  "talk.openApp": "이메일 앱 열기",
   "talk.email": "이메일",
 
   "news.title": "이메일을 남기고 무료 팁과 자료를 받아보세요",

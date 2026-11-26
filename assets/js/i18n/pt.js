@@ -106,6 +106,7 @@ LTR_I18N.register("pt", {
   "talk.sub": "Adoraríamos ajudar. Escreva para <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> ou mande uma mensagem",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "E-mail copiado:",
+  "talk.openApp": "Abrir app de e-mail",
   "talk.email": "E-mail",
 
   "news.title": "Deixe seu e-mail e receba dicas e materiais grátis",

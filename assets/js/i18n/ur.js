@@ -106,6 +106,7 @@ LTR_I18N.register("ur", {
   "talk.sub": "ضرور پوچھیں۔ ای میل کریں <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> یا میسج بھیجیں",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "ای میل پتہ کاپی ہو گیا:",
+  "talk.openApp": "ای میل ایپ کھولیں",
   "talk.email": "ای میل",
 
   "news.title": "مفت مشورے اور مواد کے لیے اپنی ای میل درج کریں",

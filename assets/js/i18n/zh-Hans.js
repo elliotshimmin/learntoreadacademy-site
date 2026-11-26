@@ -106,6 +106,7 @@ LTR_I18N.register("zh-Hans", {
   "talk.sub": "欢迎提问。请发邮件至 <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> 或发送消息",
   "talk.sms": "iMessage / 短信",
   "talk.copied": "邮箱地址已复制：",
+  "talk.openApp": "打开邮件应用",
   "talk.email": "邮件",
 
   "news.title": "留下邮箱，免费获取技巧和教材",

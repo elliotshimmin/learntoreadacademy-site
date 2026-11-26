@@ -106,6 +106,7 @@ LTR_I18N.register("ja", {
   "talk.sub": "お気軽にどうぞ。<a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> へメール、またはメッセージを送ってください",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "メールアドレスをコピーしました：",
+  "talk.openApp": "メールアプリを開く",
   "talk.email": "メール",
 
   "news.title": "メールアドレスを登録して、無料のヒントと教材を受け取ろう",

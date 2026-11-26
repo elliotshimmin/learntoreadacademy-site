@@ -106,6 +106,7 @@ LTR_I18N.register("ru", {
   "talk.sub": "Спрашивайте. Пишите на <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> или отправьте сообщение",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "Адрес почты скопирован:",
+  "talk.openApp": "Открыть почту",
   "talk.email": "Почта",
 
   "news.title": "Оставьте e-mail и получайте бесплатные советы и материалы",

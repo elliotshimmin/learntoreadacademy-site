@@ -106,6 +106,7 @@ LTR_I18N.register("hi", {
   "talk.sub": "ज़रूर पूछें। ईमेल करें <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> या मैसेज भेजें",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "ईमेल पता कॉपी हो गया:",
+  "talk.openApp": "ईमेल ऐप खोलें",
   "talk.email": "ईमेल",
 
   "news.title": "मुफ़्त टिप्स और सामग्री के लिए अपना ईमेल डालें",

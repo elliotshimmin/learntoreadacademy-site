@@ -633,7 +633,8 @@ html[dir="rtl"] .cta-block { align-items: flex-start; }
   box-shadow: 0 10px 30px rgba(30,27,51,.25); opacity: 0; pointer-events: none; transition: all .2s ease;
   max-width: calc(100vw - 32px); text-align: center;
 }
-.copy-toast.show { opacity: 1; transform: translate(-50%, 0); }
+.copy-toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.copy-toast__open { color: var(--sun); font-weight: 600; text-decoration: underline; margin-inline-start: 6px; white-space: nowrap; }
 
 /* Emoji inside italic headings should stay upright */
 em .emoji { font-style: normal; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; display: inline-block; }

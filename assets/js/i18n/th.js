@@ -106,6 +106,7 @@ LTR_I18N.register("th", {
   "talk.sub": "ถามมาได้เลย อีเมลที่ <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> หรือส่งข้อความ",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "คัดลอกอีเมลแล้ว:",
+  "talk.openApp": "เปิดแอปอีเมล",
   "talk.email": "อีเมล",
 
   "news.title": "ใส่อีเมลเพื่อรับเคล็ดลับและสื่อฟรี",

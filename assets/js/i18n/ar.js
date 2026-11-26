@@ -106,6 +106,7 @@ LTR_I18N.register("ar", {
   "talk.sub": "يسعدنا سؤالك. راسلنا على <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> أو أرسل رسالة",
   "talk.sms": "iMessage / رسالة نصية",
   "talk.copied": "تم نسخ البريد الإلكتروني:",
+  "talk.openApp": "فتح تطبيق البريد",
   "talk.email": "البريد الإلكتروني",
 
   "news.title": "أضف بريدك الإلكتروني لتصلك نصائح ومواد مجانية",

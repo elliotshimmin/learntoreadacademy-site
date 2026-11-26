@@ -106,6 +106,7 @@ LTR_I18N.register("bn", {
   "talk.sub": "নির্দ্বিধায় জিজ্ঞেস করুন। ইমেল করুন <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> অথবা মেসেজ পাঠান",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "ইমেল ঠিকানা কপি হয়েছে:",
+  "talk.openApp": "ইমেল অ্যাপ খুলুন",
   "talk.email": "ইমেল",
 
   "news.title": "ফ্রি টিপস আর উপকরণ পেতে আপনার ইমেল দিন",

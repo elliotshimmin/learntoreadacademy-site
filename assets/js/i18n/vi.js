@@ -106,6 +106,7 @@ LTR_I18N.register("vi", {
   "talk.sub": "Cứ hỏi nhé. Email <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> hoặc gửi tin nhắn",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "Đã sao chép email:",
+  "talk.openApp": "Mở ứng dụng email",
   "talk.email": "Email",
 
   "news.title": "Để lại email để nhận mẹo và tài liệu miễn phí",

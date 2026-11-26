@@ -106,6 +106,7 @@ LTR_I18N.register("id", {
   "talk.sub": "Silakan bertanya. Kirim email ke <a href=\"mailto:info@seesaywrite.com\">info@seesaywrite.com</a> atau kirim pesan",
   "talk.sms": "iMessage / SMS",
   "talk.copied": "Alamat email disalin:",
+  "talk.openApp": "Buka aplikasi email",
   "talk.email": "Email",
 
   "news.title": "Masukkan email Anda untuk tips dan materi gratis",
