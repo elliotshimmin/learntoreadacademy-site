@@ -14,5 +14,6 @@ window.LTR_CONFIG = {
   /* Chat bubble links (also used on the page's message tiles) */
   whatsapp: "https://wa.me/447386895248?text=Hello!",
   messenger: "https://m.me/elliot.shimmin",
-  sms: "sms:+447386895248"
+  sms: "sms:+447386895248",
+  email: "info@seesaywrite.com"
 };
