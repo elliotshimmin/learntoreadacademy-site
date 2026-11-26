@@ -501,7 +501,8 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .talk-sub a { color: var(--ink); font-weight: 500; }
 .tiles { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: clamp(28px, 4vw, 48px) auto 0; max-width: 900px; }
 .tile {
-  border-radius: 30px; padding: 26px 16px; text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 12px;
+  border-radius: 30px; padding: 26px 16px; text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  position: relative; min-height: 150px;
   font-weight: 500; font-size: 16px; transition: transform .15s; text-align: center;
 }
 .tile:hover { transform: translateY(-4px); }
@@ -623,7 +624,7 @@ html[dir="rtl"] .hero h1, html[dir="rtl"] h2 { letter-spacing: 0; }
 html[dir="rtl"] .cta-block { align-items: flex-start; }
 
 /* Email tile: show the address; toast when it's copied */
-.tile-addr { font-size: 12.5px; font-weight: 400; color: var(--ink-soft); word-break: break-all; }
+.tile-addr { position: absolute; left: 10px; right: 10px; bottom: 16px; font-size: 12.5px; font-weight: 400; color: var(--ink-soft); word-break: break-all; }
 .copy-toast {
   position: fixed; left: 50%; bottom: 96px; transform: translate(-50%, 20px); z-index: 120;
   background: var(--ink); color: #fff; padding: 12px 20px; border-radius: 999px; font-size: 15px;
