@@ -11,7 +11,7 @@ LTR_I18N.register("ar", {
   "nav.trial": "جرّب مجانًا",
 
   "hero.title": "<span class=\"line\">امنح طفلك</span> <span class=\"line\"><em>الطلاقة في قراءة الإنجليزية</em></span> <span class=\"line\">والثقة بالنفس</span> <span class=\"line\"><em>في مكان واحد</em></span>",
-  "hero.guarantee": "إذا لم تنجح أكاديميتنا الإلكترونية 'Learn to Read Academy' مع طفلك، <strong>نعيد لك كامل المبلغ ونضيف 100 دولار</strong> مقابل وقتك.",
+  "hero.guarantee": "إذا لم تنجح أكاديمية 'Learn to Read Academy' مع طفلك، <strong>نعيد لك كامل المبلغ ونضيف 100 دولار</strong> مقابل وقتك.",
   "hero.confident": "نحن واثقون لأن أكاديميتنا تنجح.",
   "hero.trust": "يحبها الأهالي في كل أنحاء العالم",
 

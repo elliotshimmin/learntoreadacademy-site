@@ -11,7 +11,7 @@ LTR_I18N.register("bn", {
   "nav.trial": "ফ্রি ট্রায়াল",
 
   "hero.title": "<span class=\"line\">আপনার সন্তানকে দিন</span> <span class=\"line\"><em>সাবলীলভাবে ইংরেজি পড়ার দক্ষতা</em></span> <span class=\"line\">আর আত্মবিশ্বাস,</span> <span class=\"line\"><em>সবকিছু এক জায়গায়</em></span>",
-  "hero.guarantee": "যদি আমাদের অনলাইন 'Learn to Read Academy' আপনার সন্তানের জন্য কাজ না করে, <strong>আমরা পুরো টাকা ফেরত দেব, সাথে আরও $100</strong>, আপনার সময়ের জন্য।",
+  "hero.guarantee": "যদি 'Learn to Read Academy' আপনার সন্তানের জন্য কাজ না করে, <strong>আমরা পুরো টাকা ফেরত দেব, সাথে আরও $100</strong>, আপনার সময়ের জন্য।",
   "hero.confident": "আমরা আত্মবিশ্বাসী, কারণ আমাদের অ্যাকাডেমি কাজ করে।",
   "hero.trust": "সারা বিশ্বের বাবা-মায়েদের প্রিয়",
 
