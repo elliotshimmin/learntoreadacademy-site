@@ -443,25 +443,31 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .banner .cta-note { color: var(--ink); }
 .banner-img { position: relative; z-index: 1; }
 .banner-img .mask { overflow: hidden; background: #fff; border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; padding: 6%; }
-/* cut-out photo on a white shape. The photo's own straight edges (her hair on the left, her legs at
-   the bottom) stay inside the shape; her head and shoe come out over its edge. Sized so the section
-   keeps its height. */
+/* cut-out photo on a white shape. The photo is clipped to the exact shape (so its own straight edges
+   never show), except the iPad and her shoe, which come out over the edge. Sized so the section keeps
+   its height. */
 .banner-img .cutout-mask {
-  position: relative; max-width: 276px; padding: 0; margin-inline-start: 0;
+  --blob: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M30 3C55 0 80 8 92 28C100 45 99 70 88 84C76 97 50 99 28 95C10 91 2 74 3 52C4 28 10 6 30 3Z'/%3E%3C/svg%3E");
+  position: relative; max-width: 314px; padding: 0; margin-inline-start: 0;
   background: none; overflow: visible; border-radius: 0;
 }
 .banner-img .cutout-mask::before {
-  content: ""; position: absolute; inset: 9% 3% 1% 2%; background: #fff;
-  border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%;
+  content: ""; position: absolute; inset: 0; background: #fff;
+  -webkit-mask: var(--blob) 0 0 / 100% 100% no-repeat; mask: var(--blob) 0 0 / 100% 100% no-repeat;
 }
 .banner-img .cutout-mask img {
   position: relative; display: block; width: 100%; height: auto;
-  -webkit-mask-image: radial-gradient(ellipse 47% 45% at 51% 54%, #000 97%, transparent 100%), linear-gradient(to right, transparent 74%, #000 78%), linear-gradient(to right, transparent 17%, #000 23%), linear-gradient(to bottom, #000 84%, transparent 88%);
-  mask-image: radial-gradient(ellipse 47% 45% at 51% 54%, #000 97%, transparent 100%), linear-gradient(to right, transparent 74%, #000 78%), linear-gradient(to right, transparent 17%, #000 23%), linear-gradient(to bottom, #000 84%, transparent 88%);
+  /* shape, plus the shoe (right strip), plus the iPad (top-right block) */
+  -webkit-mask-image: var(--blob), linear-gradient(to right, transparent 78%, #000 78%),
+    linear-gradient(to right, transparent 51%, #000 51%), linear-gradient(to bottom, #000 34%, transparent 34%);
+  mask-image: var(--blob), linear-gradient(to right, transparent 78%, #000 78%),
+    linear-gradient(to right, transparent 51%, #000 51%), linear-gradient(to bottom, #000 34%, transparent 34%);
+  -webkit-mask-size: 100% 100%; mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
   -webkit-mask-composite: source-over, source-over, source-in, source-over;
   mask-composite: add, add, intersect, add;
 }
-@media (max-width: 860px) { .banner-img .cutout-mask { max-width: 192px; } }
+@media (max-width: 860px) { .banner-img .cutout-mask { max-width: 219px; } }
 .banner .shape { z-index: 0; }
 .banner > div { position: relative; z-index: 1; }
 @media (max-width: 860px) {
