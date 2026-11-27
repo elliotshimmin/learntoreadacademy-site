@@ -11,7 +11,7 @@ LTR_I18N.register("vi", {
   "nav.trial": "Học thử miễn phí",
 
   "hero.title": "<span class=\"line\">Giúp con bạn</span> <span class=\"line\"><em>đọc tiếng Anh trôi chảy</em></span> <span class=\"line\">và tự tin,</span> <span class=\"line\"><em>tất cả ở cùng một nơi</em></span>",
-  "hero.guarantee": "Nếu 'Learn to Read Academy' không hiệu quả với con bạn, <strong>chúng tôi hoàn lại toàn bộ tiền và tặng thêm $100</strong> cho thời gian của bạn.",
+  "hero.guarantee": "Nếu khóa học trực tuyến 'Learn to Read Academy' của chúng tôi không hiệu quả với con bạn, <strong>chúng tôi hoàn lại toàn bộ tiền và tặng thêm $100</strong> cho thời gian của bạn.",
   "hero.confident": "Chúng tôi tự tin vì Học viện của chúng tôi thực sự hiệu quả.",
   "hero.trust": "Được phụ huynh khắp thế giới yêu thích",
 

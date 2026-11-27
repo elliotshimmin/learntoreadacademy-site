@@ -11,7 +11,7 @@ LTR_I18N.register("de", {
   "nav.trial": "Kostenlos testen",
 
   "hero.title": "<span class=\"line\">Schenken Sie Ihrem Kind</span> <span class=\"line\"><em>flüssiges Lesen auf Englisch</em></span> <span class=\"line\">und Selbstvertrauen,</span> <span class=\"line\"><em>alles an einem Ort</em></span>",
-  "hero.guarantee": "Wenn die 'Learn to Read Academy' bei Ihrem Kind nicht funktioniert, <strong>erstatten wir Ihnen alles und zahlen 100 $ dazu</strong> für Ihre Zeit.",
+  "hero.guarantee": "Wenn unsere Online-'Learn to Read Academy' bei Ihrem Kind nicht funktioniert, <strong>erstatten wir Ihnen alles und zahlen 100 $ dazu</strong> für Ihre Zeit.",
   "hero.confident": "Wir sind uns sicher, denn unsere Akademie funktioniert.",
   "hero.trust": "Beliebt bei Eltern auf der ganzen Welt",
 

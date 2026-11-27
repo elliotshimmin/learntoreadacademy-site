@@ -11,7 +11,7 @@ LTR_I18N.register("fr", {
   "nav.trial": "Essai gratuit",
 
   "hero.title": "<span class=\"line\">Donnez à votre enfant</span> <span class=\"line\"><em>une lecture fluide en anglais</em></span> <span class=\"line\">et la confiance en soi,</span> <span class=\"line\"><em>tout au même endroit</em></span>",
-  "hero.guarantee": "Si la 'Learn to Read Academy' ne fonctionne pas pour votre enfant, <strong>nous vous remboursons tout et ajoutons 100 $</strong> pour votre temps.",
+  "hero.guarantee": "Si notre 'Learn to Read Academy' en ligne ne fonctionne pas pour votre enfant, <strong>nous vous remboursons tout et ajoutons 100 $</strong> pour votre temps.",
   "hero.confident": "Nous sommes confiants, car notre Académie fonctionne.",
   "hero.trust": "Adoré par les parents du monde entier",
 

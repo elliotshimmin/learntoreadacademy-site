@@ -11,7 +11,7 @@ LTR_I18N.register("th", {
   "nav.trial": "ทดลองฟรี",
 
   "hero.title": "<span class=\"line\">ให้ลูกของคุณ</span> <span class=\"line\"><em>อ่านภาษาอังกฤษได้คล่อง</em></span> <span class=\"line\">และมั่นใจ</span> <span class=\"line\"><em>ครบในที่เดียว</em></span>",
-  "hero.guarantee": "ถ้า 'Learn to Read Academy' ไม่ได้ผลกับลูกของคุณ <strong>เราคืนเงินเต็มจำนวน พร้อมให้เพิ่มอีก $100</strong> เป็นค่าเวลาของคุณ",
+  "hero.guarantee": "ถ้า 'Learn to Read Academy' ออนไลน์ของเรา ไม่ได้ผลกับลูกของคุณ <strong>เราคืนเงินเต็มจำนวน พร้อมให้เพิ่มอีก $100</strong> เป็นค่าเวลาของคุณ",
   "hero.confident": "เรามั่นใจ เพราะอะคาเดมีของเราได้ผลจริง",
   "hero.trust": "พ่อแม่ทั่วโลกชื่นชอบ",
 

@@ -11,7 +11,7 @@ LTR_I18N.register("ru", {
   "nav.trial": "Бесплатно",
 
   "hero.title": "<span class=\"line\">Подарите ребёнку</span> <span class=\"line\"><em>беглое чтение на английском</em></span> <span class=\"line\">и уверенность,</span> <span class=\"line\"><em>всё в одном месте</em></span>",
-  "hero.guarantee": "Если 'Learn to Read Academy' не поможет вашему ребёнку, <strong>мы вернём все деньги и добавим 100 $</strong> за ваше время.",
+  "hero.guarantee": "Если наша онлайн-академия 'Learn to Read Academy' не поможет вашему ребёнку, <strong>мы вернём все деньги и добавим 100 $</strong> за ваше время.",
   "hero.confident": "Мы уверены, потому что наша Академия работает.",
   "hero.trust": "Её любят родители по всему миру",
 

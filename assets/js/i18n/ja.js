@@ -11,7 +11,7 @@ LTR_I18N.register("ja", {
   "nav.trial": "無料体験",
 
   "hero.title": "<span class=\"line\">お子さまに</span> <span class=\"line\"><em>英語をすらすら読む力</em></span> <span class=\"line\">と自信を、</span> <span class=\"line\"><em>ひとつの場所で</em></span>",
-  "hero.guarantee": "「Learn to Read Academy」がお子さまに合わなかった場合、<strong>全額返金に加えて100ドルをお支払いします</strong>。お時間をいただいたお礼です。",
+  "hero.guarantee": "私たちのオンライン講座「Learn to Read Academy」がお子さまに合わなかった場合、<strong>全額返金に加えて100ドルをお支払いします</strong>。お時間をいただいたお礼です。",
   "hero.confident": "効果があるからこそ、自信を持ってお約束します。",
   "hero.trust": "世界中の保護者に愛されています",
 

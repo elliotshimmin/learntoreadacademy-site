@@ -11,7 +11,7 @@ LTR_I18N.register("zh-Hans", {
   "nav.trial": "免费试用",
 
   "hero.title": "<span class=\"line\">让您的孩子</span> <span class=\"line\"><em>流利阅读英语</em></span> <span class=\"line\">充满自信</span> <span class=\"line\"><em>一站式学习</em></span>",
-  "hero.guarantee": "如果“Learn to Read Academy”对您的孩子没有效果，<strong>我们全额退款，再额外送您 $100</strong>，感谢您付出的时间。",
+  "hero.guarantee": "如果我们的在线课程“Learn to Read Academy”对您的孩子没有效果，<strong>我们全额退款，再额外送您 $100</strong>，感谢您付出的时间。",
   "hero.confident": "我们有信心，因为我们的课程真的有效。",
   "hero.trust": "深受全球家长喜爱",
 

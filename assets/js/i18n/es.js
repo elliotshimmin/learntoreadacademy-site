@@ -11,7 +11,7 @@ LTR_I18N.register("es", {
   "nav.trial": "Prueba gratis",
 
   "hero.title": "<span class=\"line\">Dale a tu hijo</span> <span class=\"line\"><em>fluidez lectora en inglés</em></span> <span class=\"line\">y confianza,</span> <span class=\"line\"><em>todo en un solo lugar</em></span>",
-  "hero.guarantee": "Si la 'Learn to Read Academy' no funciona para tu hijo, <strong>te devolvemos todo tu dinero y te damos $100 más</strong> por tu tiempo.",
+  "hero.guarantee": "Si nuestra 'Learn to Read Academy' online no funciona para tu hijo, <strong>te devolvemos todo tu dinero y te damos $100 más</strong> por tu tiempo.",
   "hero.confident": "Estamos seguros porque nuestra Academia funciona.",
   "hero.trust": "Les encanta a padres de todo el mundo",
 
