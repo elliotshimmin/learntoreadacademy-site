@@ -229,6 +229,10 @@ html[dir="rtl"] .arrow svg, html[dir="rtl"] .circle-link svg { transform: scaleX
 /* ---------- Hero ---------- */
 .hero { position: relative; padding-block: clamp(20px, min(4vw, 4.5vh), 56px) 40px; overflow: hidden; }
 .hero .thread { inset: 0; width: 100%; height: 100%; }
+/* the wavy lines live behind the reviews, not at the top of the page */
+.has-thread { position: relative; overflow: hidden; }
+.has-thread .thread { inset: 0; width: 100%; height: 100%; }
+.has-thread > .wrap { position: relative; z-index: 1; }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr auto; gap: 24px 40px; align-items: start; }
 .hero h1 { font-size: clamp(40px, min(6.6vw, 10.4vh), 100px); line-height: 0.98; }
 /* On computers/iPads the hero fills exactly the first screen, so the next section doesn't peek in */
