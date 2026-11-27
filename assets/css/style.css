@@ -448,7 +448,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
    its height. */
 .banner-img .cutout-mask {
   --blob: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M30 3C55 0 80 8 92 28C100 45 99 70 88 84C76 97 50 99 28 95C10 91 2 74 3 52C4 28 10 6 30 3Z'/%3E%3C/svg%3E");
-  position: relative; max-width: 314px; padding: 0; margin-inline-start: 0;
+  position: relative; max-width: 251px; padding: 0; margin-inline-start: 0;
   background: none; overflow: visible; border-radius: 0;
 }
 .banner-img .cutout-mask::before {
@@ -467,7 +467,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
   -webkit-mask-composite: source-over, source-over, source-in, source-over;
   mask-composite: add, add, intersect, add;
 }
-@media (max-width: 860px) { .banner-img .cutout-mask { max-width: 219px; } }
+@media (max-width: 860px) { .banner-img .cutout-mask { max-width: 175px; } }
 .banner .shape { z-index: 0; }
 .banner > div { position: relative; z-index: 1; }
 @media (max-width: 860px) {
