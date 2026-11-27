@@ -11,7 +11,7 @@ LTR_I18N.register("it", {
   "nav.trial": "Prova gratis",
 
   "hero.title": "<span class=\"line\">Dai a tuo figlio</span> <span class=\"line\"><em>una lettura fluente in inglese</em></span> <span class=\"line\">e sicurezza,</span> <span class=\"line\"><em>tutto in un unico posto</em></span>",
-  "hero.guarantee": "Se la 'Learn to Read Academy' non funziona per tuo figlio, <strong>ti rimborsiamo tutto e aggiungiamo 100 $</strong> per il tuo tempo.",
+  "hero.guarantee": "Se la Learn to Read Academy non funziona per tuo figlio, <strong>ti rimborsiamo tutto e aggiungiamo 100 $</strong> per il tuo tempo.",
   "hero.confident": "Ne siamo sicuri, perché la nostra Accademia funziona.",
   "hero.trust": "Amata dai genitori di tutto il mondo",
 

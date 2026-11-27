@@ -11,7 +11,7 @@ LTR_I18N.register("ko", {
   "nav.trial": "무료 체험",
 
   "hero.title": "<span class=\"line\">우리 아이에게</span> <span class=\"line\"><em>유창한 영어 읽기</em></span> <span class=\"line\">그리고 자신감을,</span> <span class=\"line\"><em>한 곳에서 모두</em></span>",
-  "hero.guarantee": "'Learn to Read Academy'가 아이에게 효과가 없다면, <strong>전액 환불에 더해 $100를 드립니다</strong>. 시간을 내주신 데 대한 보답이에요.",
+  "hero.guarantee": "Learn to Read Academy가 아이에게 효과가 없다면, <strong>전액 환불에 더해 $100를 드립니다</strong>. 시간을 내주신 데 대한 보답이에요.",
   "hero.confident": "효과가 있기 때문에 자신 있게 말씀드립니다.",
   "hero.trust": "전 세계 부모님들이 사랑하는 프로그램",
 

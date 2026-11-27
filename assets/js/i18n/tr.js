@@ -11,7 +11,7 @@ LTR_I18N.register("tr", {
   "nav.trial": "Ücretsiz dene",
 
   "hero.title": "<span class=\"line\">Çocuğunuza</span> <span class=\"line\"><em>akıcı İngilizce okuma</em></span> <span class=\"line\">ve özgüven kazandırın,</span> <span class=\"line\"><em>hepsi tek bir yerde</em></span>",
-  "hero.guarantee": "'Learn to Read Academy' çocuğunuz için işe yaramazsa, <strong>paranızın tamamını iade eder, üstüne 100 $ veririz</strong>. Zamanınız için.",
+  "hero.guarantee": "Learn to Read Academy çocuğunuz için işe yaramazsa, <strong>paranızın tamamını iade eder, üstüne 100 $ veririz</strong>. Zamanınız için.",
   "hero.confident": "Kendimize güveniyoruz, çünkü Akademimiz işe yarıyor.",
   "hero.trust": "Dünyanın dört bir yanındaki ebeveynler seviyor",
 

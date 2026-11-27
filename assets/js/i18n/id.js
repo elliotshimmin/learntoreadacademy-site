@@ -11,7 +11,7 @@ LTR_I18N.register("id", {
   "nav.trial": "Coba gratis",
 
   "hero.title": "<span class=\"line\">Berikan anak Anda</span> <span class=\"line\"><em>kelancaran membaca bahasa Inggris</em></span> <span class=\"line\">dan rasa percaya diri,</span> <span class=\"line\"><em>semua di satu tempat</em></span>",
-  "hero.guarantee": "Jika 'Learn to Read Academy' tidak berhasil untuk anak Anda, <strong>kami kembalikan seluruh uang Anda plus $100</strong> untuk waktu Anda.",
+  "hero.guarantee": "Jika Learn to Read Academy tidak berhasil untuk anak Anda, <strong>kami kembalikan seluruh uang Anda plus $100</strong> untuk waktu Anda.",
   "hero.confident": "Kami yakin, karena Akademi kami berhasil.",
   "hero.trust": "Disukai orang tua di seluruh dunia",
 
