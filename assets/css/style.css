@@ -132,8 +132,9 @@ html[dir="rtl"] .arrow svg, html[dir="rtl"] .circle-link svg { transform: scaleX
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(255, 250, 241, 0.92);
-  backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  /* near-solid instead of a blur: the blur made Chrome redraw everything under the bar while
+     scrolling, which showed up as brief blank boxes on the page */
+  background: rgba(255, 250, 241, 0.97);
   border-bottom: 1px solid transparent; transition: border-color .2s;
 }
 .site-header.scrolled { border-bottom-color: var(--line); }
@@ -208,7 +209,7 @@ html[dir="rtl"] .arrow svg, html[dir="rtl"] .circle-link svg { transform: scaleX
 .thread { position: absolute; pointer-events: none; z-index: 0; fill: none; stroke: var(--thread); stroke-width: 1.4; }
 .shape { position: absolute; pointer-events: none; }
 .badge-rotate { position: relative; width: 150px; height: 150px; flex: none; }
-.badge-rotate .ring { position: absolute; inset: 0; animation: spin 22s linear infinite; }
+.badge-rotate .ring { position: absolute; inset: 0; animation: spin 22s linear infinite; will-change: transform; }
 .badge-rotate .ring text { font-size: 11.5px; font-weight: 600; letter-spacing: 0.24em; fill: var(--ink); text-transform: uppercase; font-family: "Lexend", sans-serif; }
 .badge-rotate .core { position: absolute; inset: 24px; border-radius: 50%; overflow: hidden; display: grid; place-items: center; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -478,7 +479,7 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .guarantee p { font-size: 18px; max-width: 60ch; }
 .guarantee .btn { margin-top: 24px; }
 .seal { position: relative; width: clamp(160px, 18vw, 220px); aspect-ratio: 1; }
-.seal .ring { position: absolute; inset: 0; animation: spin 30s linear infinite; }
+.seal .ring { position: absolute; inset: 0; animation: spin 30s linear infinite; will-change: transform; }
 .seal .core { position: absolute; inset: 16%; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; text-align: center; padding: 10px; }
 .seal .core b { display: block; font-size: clamp(26px, 3vw, 38px); line-height: 1; font-weight: 600; }
 .seal .core span { display: block; font-size: 13px; margin-top: 4px; line-height: 1.3; }
