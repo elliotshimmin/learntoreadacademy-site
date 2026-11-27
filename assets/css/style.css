@@ -443,6 +443,17 @@ blockquote footer strong { font-weight: 600; margin-inline-end: 6px; }
 .banner .cta-note { color: var(--ink); }
 .banner-img { position: relative; z-index: 1; }
 .banner-img .mask { overflow: hidden; background: #fff; border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; padding: 6%; }
+/* the cut-out photo sits straight on the blue, inside a box the same shape the old framed photo had,
+   so the section keeps its size */
+.banner-img:has(.cutout) { aspect-ratio: 1.345; }
+.banner-img .cutout { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; transform: scale(1.2);
+  /* the photo also stops sharply at the legs: fade that edge into the blue */
+  -webkit-mask-image: linear-gradient(to bottom, #000 82%, transparent 99%); mask-image: linear-gradient(to bottom, #000 82%, transparent 99%); }
+/* the photo is cut off down its left side, so line that edge up with the edge of the blue box */
+html:not([dir="rtl"]) .banner-img .cutout {
+  left: calc(-1 * clamp(28px, 5vw, 60px)); width: calc(100% + clamp(28px, 5vw, 60px));
+  object-position: left center; transform-origin: left center;
+}
 .banner .shape { z-index: 0; }
 .banner > div { position: relative; z-index: 1; }
 @media (max-width: 860px) {
